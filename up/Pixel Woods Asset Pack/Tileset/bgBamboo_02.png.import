@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b6hmj5b5qnvvq"
-path="res://.godot/imported/bgBamboo.png-53ceaf1a1ab2da99a34678ec7c5d4623.ctex"
+uid="uid://cbc7d55i6cevn"
+path="res://.godot/imported/bgBamboo_02.png-9b8633bec9e08feb4dacc6bdc42a879d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Pixel Woods Asset Pack/bgBamboo/bgBamboo.png"
-dest_files=["res://.godot/imported/bgBamboo.png-53ceaf1a1ab2da99a34678ec7c5d4623.ctex"]
+source_file="res://Pixel Woods Asset Pack/Tileset/bgBamboo_02.png"
+dest_files=["res://.godot/imported/bgBamboo_02.png-9b8633bec9e08feb4dacc6bdc42a879d.ctex"]
 
 [params]
 
