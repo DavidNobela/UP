@@ -1,11 +1,20 @@
-[gd_scene load_steps=3 format=3 uid="uid://c8vxnhdwxk66e"]
+[gd_scene load_steps=6 format=3 uid="uid://c8vxnhdwxk66e"]
 
 [ext_resource type="Texture2D" uid="uid://dv4wbcev1qm3g" path="res://mob2.png" id="1_6vmj5"]
+[ext_resource type="Script" path="res://mob.gd" id="1_17rhx"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_43dom"]
 radius = 1.0
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_5uog8"]
+radius = 1.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_smse1"]
+radius = 1.0
+
 [node name="Mob" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_17rhx")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(-3.8147e-06, -3.8147e-06)
@@ -14,3 +23,13 @@ texture = ExtResource("1_6vmj5")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_43dom")
+
+[node name="DetectionArea2" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea2"]
+shape = SubResource("CircleShape2D_5uog8")
+
+[node name="HitBox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitBox"]
+shape = SubResource("CircleShape2D_smse1")
