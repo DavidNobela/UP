@@ -11,3 +11,4 @@ extends Area2D
 #func _on_ready_entered(_body):
 #game_manager.add_point()
 #animation.player.play( name of animation )
+#https://www.freepik.com/vectors/pixel-banana
