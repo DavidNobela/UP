@@ -1,2 +1,6 @@
 res://game.tscn
 res://game_manager.gd
+res://collectectable.gd
+res://collectectable_1.tscn
+res://collectectable_1.gd
+res://collectable_1.gd
