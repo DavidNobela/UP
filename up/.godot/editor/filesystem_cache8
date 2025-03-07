@@ -1,8 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1741209315
-icon.svg::CompressedTexture2D::4515565102528426218::1740603869::1741209315::1::::<><>::
-map.tscn::PackedScene::8174078796884329646::1741209309::0::1::::<><>::res://Pixel Woods Asset Pack/Tileset/Pixel_Woods_Tileset.png
-mob2.png::CompressedTexture2D::8694432394195934126::1741209309::1741209315::1::::<><>::
-mob.tscn::PackedScene::7133845219759527646::1741209309::0::1::::<><>::uid://dv4wbcev1qm3g::::res://mob2.png
-::res://Pixel Woods Asset Pack/::1741209309
-::res://Pixel Woods Asset Pack/bgBamboo/::1740783878
+::res://::1741387082
+icon.svg::CompressedTexture2D::4515565102528426218::1740604694::1741387275::1::::<><>::
+map.tscn::PackedScene::-1::1741387082::0::1::::<><>::
+mob2.png::CompressedTexture2D::8694432394195934126::1741387082::1741387275::1::::<><>::
+mob.gd::GDScript::-1::1741387082::0::1::::Mob<>CharacterBody2D<>::
+mob.tscn::PackedScene::-1::1741387082::0::1::::<><>::
