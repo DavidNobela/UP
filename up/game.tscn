@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://dcxgxp4aliifb"]
+
+[ext_resource type="Script" path="res://game_manager.gd" id="1_dairx"]
+
+[node name="Game" type="Node"]
+
+[node name="GameManager" type="Node" parent="."]
+script = ExtResource("1_dairx")
+
+[node name="Collectable1" type="Node" parent="."]
+
+[node name="Text" type="Node" parent="."]
+
+[node name="Mobs" type="Node" parent="."]
