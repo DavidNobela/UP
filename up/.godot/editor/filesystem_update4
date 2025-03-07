@@ -1,4 +1,2 @@
-res://map.tscn
-res://Scene/player.tscn
 res://Scene/map.tscn
-res://Scripts/player.gd
+res://Scene/player.tscn
