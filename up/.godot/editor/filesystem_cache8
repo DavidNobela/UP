@@ -1,6 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1741209432
+::res://::1741386318
+collectable1.gd::GDScript::-1::1741211295::0::1::::<>Area2D<>::
+collectable1.tscn::PackedScene::6614999696142385804::1741209432::0::1::::<><>::res://collectable1.gd<>uid://bg0hakxt5jqse::::res://icon_collectable.svg
 icon.svg::CompressedTexture2D::6656954675954813299::1740604694::1741208547::1::::<><>::
 icon_collectable.svg::CompressedTexture2D::2859588769989894000::1741209432::1741209435::1::::<><>::
-collectable1.gd::GDScript::-1::1741209432::0::1::::<>Area2D<>::
-collectable1.tscn::PackedScene::6614999696142385804::1741209348::0::1::::<><>::res://collectable1.gd<>uid://bg0hakxt5jqse::::res://icon_collectable.svg
