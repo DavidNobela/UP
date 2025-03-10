@@ -1,4 +1,5 @@
-res://Scene/player.tscn
 res://Scene/map.tscn
-res://Scripts/killzone.gd
+res://Scene/player.tscn
 res://Scene/killzone.tscn
+res://Scripts/player.gd
+res://Scripts/killzone.gd

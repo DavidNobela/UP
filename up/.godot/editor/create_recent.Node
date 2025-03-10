@@ -1,7 +1,7 @@
+Timer
 CollisionShape2D
 Area2D
 AnimatedSprite2D
-Timer
 TileMap
 StaticBody2D
 Camera2D
