@@ -1,14 +1,33 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1741584863
+::res://::1741670053
 icon.svg::CompressedTexture2D::6656954675954813299::1741584587::1741584879::1::::<><>::
-::res://8x8tileset/::1741584863
+::res://8x8tileset/::1741584879
 ALL_content.png::CompressedTexture2D::8169072556195158784::1741584863::1741584879::1::::<><>::
 BL-lava-tileset-itch.png::CompressedTexture2D::1197038904655900089::1741584863::1741584879::1::::<><>::
 Tileset.png::CompressedTexture2D::7565989606367823626::1741584863::1741584879::1::::<><>::
+::res://32rogues-0.5.0/::1741670042
+::res://32rogues-0.5.0/32rogues/::1741670043
+32rogues-palette.png::CompressedTexture2D::5686970814625936103::1741670042::1741670054::1::::<><>::
+animals.png::CompressedTexture2D::3462661387359434041::1741670042::1741670054::1::::<><>::
+animals.txt::TextFile::-1::1741670042::0::1::::<><>::
+animated-tiles.png::CompressedTexture2D::3911404964549355044::1741670042::1741670054::1::::<><>::
+animated-tiles.txt::TextFile::-1::1741670042::0::1::::<><>::
+autotiles.png::CompressedTexture2D::6975411823136300534::1741670042::1741670054::1::::<><>::
+autotiles.txt::TextFile::-1::1741670042::0::1::::<><>::
+items-palette-swaps.png::CompressedTexture2D::6715195111294970700::1741670042::1741670054::1::::<><>::
+items.png::CompressedTexture2D::4004525460724141386::1741670042::1741670054::1::::<><>::
+items.txt::TextFile::-1::1741670042::0::1::::<><>::
+LICENSE.txt::TextFile::-1::1741670042::0::1::::<><>::
+monsters.png::CompressedTexture2D::7146283511078104397::1741670042::1741670054::1::::<><>::
+monsters.txt::TextFile::-1::1741670042::0::1::::<><>::
+rogues.png::CompressedTexture2D::1480791578052151985::1741670042::1741670054::1::::<><>::
+rogues.txt::TextFile::-1::1741670042::0::1::::<><>::
+tiles.png::CompressedTexture2D::2564413618934333197::1741670042::1741670054::1::::<><>::
+tiles.txt::TextFile::-1::1741670042::0::1::::<><>::
 ::res://brackeys_platformer_assets/::1741584863
 LICENSE & CREDITS.txt::TextFile::-1::1741584863::0::1::::<><>::
 ::res://brackeys_platformer_assets/CharacterPack-Version1/::1741584863
-::res://brackeys_platformer_assets/CharacterPack-Version1/Character-No-Weapon/::1741584863
+::res://brackeys_platformer_assets/CharacterPack-Version1/Character-No-Weapon/::1741670011
 Character-NoWeapon-dash-1.png::CompressedTexture2D::3904738224869575380::1741584863::1741584879::1::::<><>::
 Character-NoWeapon-Die.png::CompressedTexture2D::6700571616540147351::1741584863::1741584879::1::::<><>::
 Character-NoWeapon-fall.png::CompressedTexture2D::651029711332430054::1741584863::1741584879::1::::<><>::
@@ -35,7 +54,7 @@ Character-NoWeapon-wall-slide-loop-no-particles.png::CompressedTexture2D::568357
 Character-NoWeapon-wall-slide-loop.png::CompressedTexture2D::5325355690859990316::1741584863::1741584880::1::::<><>::
 Character-NoWeapon-wall-slide-movement.png::CompressedTexture2D::377023311094231352::1741584863::1741584880::1::::<><>::
 Character-NoWeapon-wall-stick.png::CompressedTexture2D::7274522538429068980::1741584863::1741584880::1::::<><>::
-::res://brackeys_platformer_assets/CharacterPack-Version1/Character-Weapon/::1741584863
+::res://brackeys_platformer_assets/CharacterPack-Version1/Character-Weapon/::1741584880
 Character-Attack-1.png::CompressedTexture2D::8938396480034494393::1741584863::1741584880::1::::<><>::
 Character-Attack-2.png::CompressedTexture2D::7881401073040471538::1741584863::1741584880::1::::<><>::
 Character-Attack-3.png::CompressedTexture2D::6453491573936431189::1741584863::1741584880::1::::<><>::
@@ -68,19 +87,19 @@ Character-wall-slide-loop.png::CompressedTexture2D::5725020044886160952::1741584
 Character-wall-stick-movement.png::CompressedTexture2D::3669498016696105768::1741584863::1741584879::1::::<><>::
 Character-wall-stick-off-movement.png::CompressedTexture2D::5558597649719845507::1741584863::1741584879::1::::<><>::
 Character-wall-Stick.png::CompressedTexture2D::2725314254367461458::1741584863::1741584879::1::::<><>::
-::res://brackeys_platformer_assets/fonts/::1741584863
+::res://brackeys_platformer_assets/fonts/::1741584878
 PixelOperator8-Bold.ttf::FontFile::4660707499945393760::1741584863::1741584878::1::::<><>::
 PixelOperator8.ttf::FontFile::7628355035127412381::1741584863::1741584878::1::::<><>::
-::res://brackeys_platformer_assets/music/::1741584863
+::res://brackeys_platformer_assets/music/::1741584878
 time_for_adventure.mp3::AudioStreamMP3::8221929897609155689::1741584863::1741584878::1::::<><>::
-::res://brackeys_platformer_assets/sounds/::1741584863
+::res://brackeys_platformer_assets/sounds/::1741584880
 coin.wav::AudioStreamWAV::5738648855726260134::1741584863::1741584880::1::::<><>::
 explosion.wav::AudioStreamWAV::6559628609296522::1741584863::1741584880::1::::<><>::
 hurt.wav::AudioStreamWAV::3983519082785190880::1741584863::1741584880::1::::<><>::
 jump.wav::AudioStreamWAV::6366926304238112819::1741584863::1741584880::1::::<><>::
 power_up.wav::AudioStreamWAV::5009725320724419650::1741584863::1741584880::1::::<><>::
 tap.wav::AudioStreamWAV::8766052167024135647::1741584863::1741584880::1::::<><>::
-::res://brackeys_platformer_assets/sprites/::1741584863
+::res://brackeys_platformer_assets/sprites/::1741584880
 coin.png::CompressedTexture2D::7983062825985380247::1741584863::1741584879::1::::<><>::
 fruit.png::CompressedTexture2D::8194955521619147590::1741584863::1741584879::1::::<><>::
 knight.png::CompressedTexture2D::2418092394833087692::1741584863::1741584879::1::::<><>::
@@ -89,7 +108,7 @@ slime_green.png::CompressedTexture2D::8818392510999573922::1741584863::174158488
 slime_purple.png::CompressedTexture2D::4441290552345091313::1741584863::1741584880::1::::<><>::
 world_tileset.png::CompressedTexture2D::1720229286675018267::1741584863::1741584880::1::::<><>::
 ::res://CharacterPack-Version1/::1741584863
-::res://CharacterPack-Version1/Character-No-Weapon/::1741584863
+::res://CharacterPack-Version1/Character-No-Weapon/::1741584880
 Character-NoWeapon-dash-1.png::CompressedTexture2D::4667313948332939871::1741584863::1741584880::1::::<><>::
 Character-NoWeapon-Die.png::CompressedTexture2D::3721059764103884292::1741584863::1741584880::1::::<><>::
 Character-NoWeapon-fall.png::CompressedTexture2D::6428727829004160792::1741584863::1741584880::1::::<><>::
@@ -116,7 +135,7 @@ Character-NoWeapon-wall-slide-loop-no-particles.png::CompressedTexture2D::779247
 Character-NoWeapon-wall-slide-loop.png::CompressedTexture2D::2755147994161825547::1741584863::1741584880::1::::<><>::
 Character-NoWeapon-wall-slide-movement.png::CompressedTexture2D::6142335194366927616::1741584863::1741584880::1::::<><>::
 Character-NoWeapon-wall-stick.png::CompressedTexture2D::5636390335008722310::1741584863::1741584880::1::::<><>::
-::res://CharacterPack-Version1/Character-Weapon/::1741584863
+::res://CharacterPack-Version1/Character-Weapon/::1741584880
 Character-Attack-1.png::CompressedTexture2D::5882119995177520264::1741584863::1741584880::1::::<><>::
 Character-Attack-2.png::CompressedTexture2D::2252510460256246948::1741584863::1741584880::1::::<><>::
 Character-Attack-3.png::CompressedTexture2D::2021950304405110013::1741584863::1741584880::1::::<><>::
@@ -149,15 +168,15 @@ Character-wall-slide-loop.png::CompressedTexture2D::104424783206317534::17415848
 Character-wall-stick-movement.png::CompressedTexture2D::5851516729641778850::1741584863::1741584880::1::::<><>::
 Character-wall-stick-off-movement.png::CompressedTexture2D::9123049184172500831::1741584863::1741584880::1::::<><>::
 Character-wall-Stick.png::CompressedTexture2D::5523621147479944035::1741584863::1741584880::1::::<><>::
-::res://Pixel Woods Asset Pack/::1741584863
+::res://Pixel Woods Asset Pack/::1741670053
 ::res://Pixel Woods Asset Pack/Backgrounds/::1741584863
-::res://Pixel Woods Asset Pack/Backgrounds/BG_1/::1741584863
+::res://Pixel Woods Asset Pack/Backgrounds/BG_1/::1741584880
 BG.png::CompressedTexture2D::6977084526732533981::1741584863::1741584880::1::::<><>::
 Lights 1.png::CompressedTexture2D::6124221526477655670::1741584863::1741584880::1::::<><>::
 Lights 2.png::CompressedTexture2D::5595760724723787691::1741584863::1741584880::1::::<><>::
 Woods 1.png::CompressedTexture2D::4716856235364292448::1741584863::1741584880::1::::<><>::
 Woods 2.png::CompressedTexture2D::918689658901489896::1741584863::1741584878::1::::<><>::
-::res://Pixel Woods Asset Pack/Backgrounds/BG_2/::1741584863
+::res://Pixel Woods Asset Pack/Backgrounds/BG_2/::1741584878
 BG.png::CompressedTexture2D::7318581786347705549::1741584863::1741584878::1::::<><>::
 Fog.png::CompressedTexture2D::6547116133222857416::1741584863::1741584878::1::::<><>::
 Lights 1.png::CompressedTexture2D::5040276460499613527::1741584863::1741584878::1::::<><>::
@@ -165,7 +184,7 @@ Lights 2.png::CompressedTexture2D::8347321318500519963::1741584863::1741584878::
 Woods 1.png::CompressedTexture2D::70268356169226320::1741584863::1741584878::1::::<><>::
 Woods 2.png::CompressedTexture2D::2581517766139781412::1741584863::1741584878::1::::<><>::
 ::res://Pixel Woods Asset Pack/CharacterPack-Version1/::1741584863
-::res://Pixel Woods Asset Pack/CharacterPack-Version1/Character-No-Weapon/::1741584863
+::res://Pixel Woods Asset Pack/CharacterPack-Version1/Character-No-Weapon/::1741584879
 Character-NoWeapon-dash-1.png::CompressedTexture2D::851362571442045058::1741584863::1741584878::1::::<><>::
 Character-NoWeapon-Die.png::CompressedTexture2D::3997152415228984204::1741584863::1741584878::1::::<><>::
 Character-NoWeapon-fall.png::CompressedTexture2D::2376769344661232776::1741584863::1741584878::1::::<><>::
@@ -192,7 +211,7 @@ Character-NoWeapon-wall-slide-loop-no-particles.png::CompressedTexture2D::736259
 Character-NoWeapon-wall-slide-loop.png::CompressedTexture2D::4648459624150002824::1741584863::1741584878::1::::<><>::
 Character-NoWeapon-wall-slide-movement.png::CompressedTexture2D::8074016520322147936::1741584863::1741584878::1::::<><>::
 Character-NoWeapon-wall-stick.png::CompressedTexture2D::100924577839615705::1741584863::1741584878::1::::<><>::
-::res://Pixel Woods Asset Pack/CharacterPack-Version1/Character-Weapon/::1741584863
+::res://Pixel Woods Asset Pack/CharacterPack-Version1/Character-Weapon/::1741584878
 Character-Attack-1.png::CompressedTexture2D::5441458032712771188::1741584863::1741584878::1::::<><>::
 Character-Attack-2.png::CompressedTexture2D::6858535753865758998::1741584863::1741584878::1::::<><>::
 Character-Attack-3.png::CompressedTexture2D::5533329529264115847::1741584863::1741584878::1::::<><>::
@@ -225,20 +244,39 @@ Character-wall-slide-loop.png::CompressedTexture2D::2557780581460176118::1741584
 Character-wall-stick-movement.png::CompressedTexture2D::5536985745593657748::1741584863::1741584878::1::::<><>::
 Character-wall-stick-off-movement.png::CompressedTexture2D::8684374241002125393::1741584863::1741584878::1::::<><>::
 Character-wall-Stick.png::CompressedTexture2D::7754953148860712679::1741584863::1741584878::1::::<><>::
-::res://Pixel Woods Asset Pack/Tileset/::1741584863
+::res://Pixel Woods Asset Pack/Tileset/::1741584879
 bgBamboo.png::CompressedTexture2D::4577471735439153814::1741584863::1741584878::1::::<><>::
 bgBamboo_01.png::CompressedTexture2D::3651339595152982821::1741584863::1741584878::1::::<><>::
 bgBamboo_02.png::CompressedTexture2D::4849108890132226151::1741584863::1741584879::1::::<><>::
 bgBamboo_03.png::CompressedTexture2D::8479717581685756826::1741584863::1741584879::1::::<><>::
 Pixel_Woods_Tileset.png::CompressedTexture2D::7463760855773464332::1741584863::1741584879::1::::<><>::
-::res://Scene/::1741584863
-killzone.tscn::PackedScene::8053482969262800323::1741584863::0::1::::<><>::res://Scripts/killzone.gd
-map.tscn::PackedScene::6568772371651230519::1741584863::0::1::::<><>::uid://dl1dj2eoywwdp::::res://Scene/player.tscn<>uid://delrby0v6jbhc::::res://Pixel Woods Asset Pack/Tileset/Pixel_Woods_Tileset.png<>uid://dm0fxngimb212::::res://Scene/killzone.tscn
-player.tscn::PackedScene::7985212800805386813::1741584863::0::1::::<><>::res://Scripts/player.gd<>uid://cfuplm1y5nvi2::::res://CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Idle.png
-::res://Scripts/::1741584863
-killzone.gd::GDScript::-1::1741584863::0::1::::<>Area2D<>::
-player.gd::GDScript::-1::1741584863::0::1::::<>CharacterBody2D<>::
-::res://Textures16x16/::1741584863
+::res://Scene/::1741669968
+killzone.tscn::PackedScene::8053482969262800323::1741587609::0::1::::<><>::res://Scripts/killzone.gd
+map.tscn::PackedScene::6568772371651230519::1741587694::0::1::::<><>::uid://dl1dj2eoywwdp::::res://Scene/player.tscn<>uid://delrby0v6jbhc::::res://Pixel Woods Asset Pack/Tileset/Pixel_Woods_Tileset.png<>uid://dm0fxngimb212::::res://Scene/killzone.tscn
+player.tscn::PackedScene::7985212800805386813::1741587609::0::1::::<><>::res://Scripts/player.gd<>uid://cfuplm1y5nvi2::::res://CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Idle.png
+::res://Scene/32rogues-0.5.0/::1741669968
+::res://Scene/32rogues-0.5.0/32rogues/::1741669969
+32rogues-palette.png::CompressedTexture2D::4589016131718095813::1741669968::1741669969::1::::<><>::
+animals.png::CompressedTexture2D::2783149365224481663::1741669968::1741669969::1::::<><>::
+animals.txt::TextFile::-1::1741669968::0::1::::<><>::
+animated-tiles.png::CompressedTexture2D::7387192213240365097::1741669968::1741669969::1::::<><>::
+animated-tiles.txt::TextFile::-1::1741669968::0::1::::<><>::
+autotiles.png::CompressedTexture2D::2275848765099797155::1741669968::1741669969::1::::<><>::
+autotiles.txt::TextFile::-1::1741669968::0::1::::<><>::
+items-palette-swaps.png::CompressedTexture2D::2013324268831256466::1741669968::1741669969::1::::<><>::
+items.png::CompressedTexture2D::7240300745881347769::1741669968::1741669969::1::::<><>::
+items.txt::TextFile::-1::1741669968::0::1::::<><>::
+LICENSE.txt::TextFile::-1::1741669968::0::1::::<><>::
+monsters.png::CompressedTexture2D::5328583398552476397::1741669968::1741669969::1::::<><>::
+monsters.txt::TextFile::-1::1741669968::0::1::::<><>::
+rogues.png::CompressedTexture2D::3329817792750810090::1741669968::1741669969::1::::<><>::
+rogues.txt::TextFile::-1::1741669968::0::1::::<><>::
+tiles.png::CompressedTexture2D::6530559389170636318::1741669968::1741669969::1::::<><>::
+tiles.txt::TextFile::-1::1741669968::0::1::::<><>::
+::res://Scripts/::1741585545
+killzone.gd::GDScript::-1::1741585545::0::1::::<>Area2D<>::
+player.gd::GDScript::-1::1741585097::0::1::::<>CharacterBody2D<>::
+::res://Textures16x16/::1741584879
 1a.png::CompressedTexture2D::6022171706861890773::1741584863::1741584879::1::::<><>::
 1b.png::CompressedTexture2D::3745404211542560222::1741584863::1741584879::1::::<><>::
 1c.png::CompressedTexture2D::6019499501165804563::1741584863::1741584879::1::::<><>::

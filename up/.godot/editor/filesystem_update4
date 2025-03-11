@@ -1,5 +1,7 @@
 res://Scene/map.tscn
 res://Scene/player.tscn
 res://Scene/killzone.tscn
-res://Scripts/player.gd
+res://Scene/snake.tscn
+res://Scripts/snake.gd
 res://Scripts/killzone.gd
+res://Scripts/player.gd

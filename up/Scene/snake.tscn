@@ -1,0 +1,45 @@
+[gd_scene load_steps=7 format=3 uid="uid://b5gmtnd7c0n71"]
+
+[ext_resource type="Texture2D" uid="uid://bpllr6nbyoe70" path="res://32rogues-0.5.0/32rogues/animals.png" id="1_1ysgj"]
+[ext_resource type="Script" path="res://Scripts/snake.gd" id="1_aejec"]
+[ext_resource type="PackedScene" uid="uid://dm0fxngimb212" path="res://Scene/killzone.tscn" id="2_ivlku"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n1a3q"]
+atlas = ExtResource("1_1ysgj")
+region = Rect2(32, 224, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vckxr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n1a3q")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_42q7u"]
+radius = 8.0
+
+[node name="Snake" type="Node2D"]
+script = ExtResource("1_aejec")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -16)
+scale = Vector2(-0.994058, 1)
+sprite_frames = SubResource("SpriteFrames_vckxr")
+
+[node name="Killzone" parent="." instance=ExtResource("2_ivlku")]
+position = Vector2(0, -9)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
+shape = SubResource("CircleShape2D_42q7u")
+
+[node name="RayCastRight" type="RayCast2D" parent="."]
+position = Vector2(0, -9)
+target_position = Vector2(12, 0)
+
+[node name="RayCastLeft" type="RayCast2D" parent="."]
+position = Vector2(0, -9)
+target_position = Vector2(-12, 0)
