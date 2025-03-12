@@ -1,3 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1740603708
-icon.svg::CompressedTexture2D::6656954675954813299::1740603704::1740603708::1::::<><>::
+::res://::1741809018
+collectable_1.gd::GDScript::-1::1741809018::0::1::::<>Area2D<>::
+collectable_1.tscn::PackedScene::-1::1741809018::0::1::::<><>::
+game.tscn::PackedScene::-1::1741809018::0::1::::<><>::
+game_manager.gd::GDScript::-1::1741809018::0::1::::<>Node<>::
+icon.svg::CompressedTexture2D::6656954675954813299::1740604694::1741809019::1::::<><>::
