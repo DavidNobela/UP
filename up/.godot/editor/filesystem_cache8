@@ -1,12 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1741670053
+::res://::1741753514
 icon.svg::CompressedTexture2D::6656954675954813299::1741584587::1741584879::1::::<><>::
 ::res://8x8tileset/::1741584879
 ALL_content.png::CompressedTexture2D::8169072556195158784::1741584863::1741584879::1::::<><>::
 BL-lava-tileset-itch.png::CompressedTexture2D::1197038904655900089::1741584863::1741584879::1::::<><>::
 Tileset.png::CompressedTexture2D::7565989606367823626::1741584863::1741584879::1::::<><>::
 ::res://32rogues-0.5.0/::1741670042
-::res://32rogues-0.5.0/32rogues/::1741670043
+::res://32rogues-0.5.0/32rogues/::1741670054
 32rogues-palette.png::CompressedTexture2D::5686970814625936103::1741670042::1741670054::1::::<><>::
 animals.png::CompressedTexture2D::3462661387359434041::1741670042::1741670054::1::::<><>::
 animals.txt::TextFile::-1::1741670042::0::1::::<><>::
@@ -250,10 +250,11 @@ bgBamboo_01.png::CompressedTexture2D::3651339595152982821::1741584863::174158487
 bgBamboo_02.png::CompressedTexture2D::4849108890132226151::1741584863::1741584879::1::::<><>::
 bgBamboo_03.png::CompressedTexture2D::8479717581685756826::1741584863::1741584879::1::::<><>::
 Pixel_Woods_Tileset.png::CompressedTexture2D::7463760855773464332::1741584863::1741584879::1::::<><>::
-::res://Scene/::1741669968
-killzone.tscn::PackedScene::8053482969262800323::1741587609::0::1::::<><>::res://Scripts/killzone.gd
-map.tscn::PackedScene::6568772371651230519::1741587694::0::1::::<><>::uid://dl1dj2eoywwdp::::res://Scene/player.tscn<>uid://delrby0v6jbhc::::res://Pixel Woods Asset Pack/Tileset/Pixel_Woods_Tileset.png<>uid://dm0fxngimb212::::res://Scene/killzone.tscn
-player.tscn::PackedScene::7985212800805386813::1741587609::0::1::::<><>::res://Scripts/player.gd<>uid://cfuplm1y5nvi2::::res://CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Idle.png
+::res://Scene/::1741676154
+killzone.tscn::PackedScene::8053482969262800323::1741676154::0::1::::<><>::res://Scripts/killzone.gd
+map.tscn::PackedScene::6568772371651230519::1741676154::0::1::::<><>::uid://dl1dj2eoywwdp::::res://Scene/player.tscn<>uid://b5gmtnd7c0n71::::res://Scene/snake.tscn<>uid://delrby0v6jbhc::::res://Pixel Woods Asset Pack/Tileset/Pixel_Woods_Tileset.png<>uid://dm0fxngimb212::::res://Scene/killzone.tscn
+player.tscn::PackedScene::7985212800805386813::1741676154::0::1::::<><>::res://Scripts/player.gd<>uid://cxuehcs7t3mcu::::res://CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-fall.png<>uid://cfuplm1y5nvi2::::res://CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Idle.png<>uid://cdw7a4a62l1s6::::res://CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Jump-movement.png<>uid://bpub3p55n7qpi::::res://CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Run.png
+snake.tscn::PackedScene::4505235482251391926::1741676154::0::1::::<><>::uid://bpllr6nbyoe70::::res://32rogues-0.5.0/32rogues/animals.png<>res://Scripts/snake.gd<>uid://dm0fxngimb212::::res://Scene/killzone.tscn
 ::res://Scene/32rogues-0.5.0/::1741669968
 ::res://Scene/32rogues-0.5.0/32rogues/::1741669969
 32rogues-palette.png::CompressedTexture2D::4589016131718095813::1741669968::1741669969::1::::<><>::
@@ -273,9 +274,10 @@ rogues.png::CompressedTexture2D::3329817792750810090::1741669968::1741669969::1:
 rogues.txt::TextFile::-1::1741669968::0::1::::<><>::
 tiles.png::CompressedTexture2D::6530559389170636318::1741669968::1741669969::1::::<><>::
 tiles.txt::TextFile::-1::1741669968::0::1::::<><>::
-::res://Scripts/::1741585545
-killzone.gd::GDScript::-1::1741585545::0::1::::<>Area2D<>::
-player.gd::GDScript::-1::1741585097::0::1::::<>CharacterBody2D<>::
+::res://Scripts/::1741675231
+killzone.gd::GDScript::-1::1741672224::0::1::::<>Area2D<>::
+player.gd::GDScript::-1::1741675231::0::1::::<>CharacterBody2D<>::
+snake.gd::GDScript::-1::1741671132::0::1::::<>Node2D<>::
 ::res://Textures16x16/::1741584879
 1a.png::CompressedTexture2D::6022171706861890773::1741584863::1741584879::1::::<><>::
 1b.png::CompressedTexture2D::3745404211542560222::1741584863::1741584879::1::::<><>::

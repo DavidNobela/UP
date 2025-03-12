@@ -219,9 +219,10 @@ collision_layer = 2
 script = ExtResource("1_mnu3n")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(0, -32)
+position = Vector2(0, -26)
+scale = Vector2(1, 0.8125)
 sprite_frames = SubResource("SpriteFrames_0xwm3")
-animation = &"die"
+animation = &"idle"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
