@@ -5,3 +5,4 @@ res://game.tscn
 res://pause_menu.gd
 res://PauseMenu.gdshader
 res://pause_menu.tscn
+res://collectable_1.gd
