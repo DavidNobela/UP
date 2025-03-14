@@ -1,10 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1741811592
-bottomjunglechest.png::CompressedTexture2D::6839653855134928702::1741811592::1741811593::1::::<><>::
+::res://::1741988382
+bottomjunglechest.png::CompressedTexture2D::1464198471305642122::1741988372::1741988373::1::::<><>::
 chest.gd::GDScript::-1::1741809275::0::1::::<>Area2D<>::
-chest.tscn::PackedScene::5636553037903430765::1741809275::0::1::::<><>::res://chest.gd<>uid://c5mv7j6dl0g0x::::res://chest_bottom.png<>uid://0bsng6ot2xlm::::res://chest_top.png
+chest.tscn::PackedScene::5636553037903430765::1741812543::0::1::::<><>::res://chest.gd<>uid://c5mv7j6dl0g0x::::res://chest_bottom.png<>uid://0bsng6ot2xlm::::res://chest_top.png
 chest_bottom.png::CompressedTexture2D::6904611932580027929::1741809275::1741811557::1::::<><>::
 chest_top.png::CompressedTexture2D::1757901953587041638::1741809275::1741811557::1::::<><>::
+chest_topjungle.png::CompressedTexture2D::5011372131903792983::1741988382::1741988383::1::::<><>::
 icon.svg::CompressedTexture2D::4515565102528426218::1740603869::1741811557::1::::<><>::
 ::res://Pixel Woods Asset Pack/::1741809275
 ::res://Pixel Woods Asset Pack/bgBamboo/::1740783878

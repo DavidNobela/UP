@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://u4jet7efxs3c"
-path="res://.godot/imported/bottomjunglechest.png-242bbdedb186bf2ed0abcc983bdbde33.ctex"
+uid="uid://cdnstjjfeux64"
+path="res://.godot/imported/chest_topjungle.png-5438ce31e8da75a1c6e6306d4e9b98d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://bottomjunglechest.png"
-dest_files=["res://.godot/imported/bottomjunglechest.png-242bbdedb186bf2ed0abcc983bdbde33.ctex"]
+source_file="res://chest_topjungle.png"
+dest_files=["res://.godot/imported/chest_topjungle.png-5438ce31e8da75a1c6e6306d4e9b98d5.ctex"]
 
 [params]
 

@@ -1,26 +1,11 @@
 [gd_scene load_steps=8 format=3 uid="uid://cmkng8aimtyfl"]
 
 [ext_resource type="Script" path="res://chest.gd" id="1_qb1jv"]
-[ext_resource type="Texture2D" uid="uid://c5mv7j6dl0g0x" path="res://chest_bottom.png" id="1_vmaqm"]
-[ext_resource type="Texture2D" uid="uid://0bsng6ot2xlm" path="res://chest_top.png" id="2_ufqqa"]
+[ext_resource type="Texture2D" uid="uid://u4jet7efxs3c" path="res://bottomjunglechest.png" id="2_ao78r"]
+[ext_resource type="Texture2D" uid="uid://cdnstjjfeux64" path="res://chest_topjungle.png" id="3_ccm2w"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_uqlno"]
 radius = 54.037
-
-[sub_resource type="Animation" id="Animation_10jwu"]
-resource_name = "chest "
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.5, 1),
-"transitions": PackedFloat32Array(1, 1, 1),
-"update": 0,
-"values": [Vector2(1, -10), Vector2(29, -38), Vector2(69, 50)]
-}
 
 [sub_resource type="Animation" id="Animation_weot6"]
 length = 0.001
@@ -37,6 +22,21 @@ tracks/0/keys = {
 "values": [Vector2(1, -10)]
 }
 
+[sub_resource type="Animation" id="Animation_10jwu"]
+resource_name = "chest "
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, -16), Vector2(29, -38), Vector2(69, 50)]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_e24h4"]
 _data = {
 "RESET": SubResource("Animation_weot6"),
@@ -51,11 +51,12 @@ shape = SubResource("CircleShape2D_uqlno")
 
 [node name="Sprite2D2" type="Sprite2D" parent="."]
 position = Vector2(0, -4)
-texture = ExtResource("1_vmaqm")
+texture = ExtResource("2_ao78r")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(1, -10)
-texture = ExtResource("2_ufqqa")
+scale = Vector2(1.05263, 1)
+texture = ExtResource("3_ccm2w")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
