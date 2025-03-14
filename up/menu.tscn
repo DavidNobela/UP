@@ -1,6 +1,11 @@
-[gd_scene load_steps=5 format=3 uid="uid://c1i75ey0ppb68"]
+[gd_scene load_steps=7 format=3 uid="uid://c1i75ey0ppb68"]
 
 [ext_resource type="Script" path="res://menu.gd" id="1_53op3"]
+[ext_resource type="Shader" path="res://loop.gdshader" id="2_xuind"]
+[ext_resource type="Texture2D" uid="uid://b6oug8k1xgj6i" path="res://Background.png" id="3_ca30b"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_nibfl"]
+shader = ExtResource("2_xuind")
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mksbx"]
 bg_color = Color(1, 1, 1, 1)
@@ -22,8 +27,6 @@ shadow_color = Color(0, 0, 0, 0.160784)
 shadow_size = 5
 shadow_offset = Vector2(0, 3.41)
 
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ol8po"]
-
 [node name="Menu" type="Control"]
 layout_mode = 3
 anchors_preset = 15
@@ -33,6 +36,19 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_53op3")
 
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_repeat = 2
+material = SubResource("ShaderMaterial_nibfl")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -72.5
+offset_bottom = 72.5
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_ca30b")
+
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
 anchors_preset = 8
@@ -40,18 +56,19 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -85.5
-offset_top = -44.0
-offset_right = 85.5
-offset_bottom = 44.0
+offset_left = -337.0
+offset_top = 319.0
+offset_right = -166.0
+offset_bottom = 409.0
 grow_horizontal = 2
 grow_vertical = 2
+scale = Vector2(4.19303, 5.00677)
 theme_override_constants/separation = 6
 
 [node name="Play" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
-size_flags_vertical = 3
+size_flags_vertical = 6
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 30
 theme_override_styles/normal = SubResource("StyleBoxFlat_mksbx")
@@ -65,14 +82,15 @@ theme_override_font_sizes/font_size = 30
 theme_override_styles/normal = SubResource("StyleBoxFlat_kyt43")
 text = "Quit"
 
-[node name="Panel" type="Panel" parent="."]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_styles/panel = SubResource("StyleBoxTexture_ol8po")
+[node name="Game Title" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1071.0
+offset_top = 632.0
+offset_right = 1185.0
+offset_bottom = 655.0
+scale = Vector2(6.8717, 9.26676)
+text = "Jungle Survival
+"
 
 [connection signal="pressed" from="VBoxContainer/Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]

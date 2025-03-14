@@ -1,4 +1,7 @@
-res://game.tscn
-res://collectable_1.tscn
-res://menu.gd
 res://menu.tscn
+res://loop.gdshader
+res://collectable_1.tscn
+res://game.tscn
+res://pause_menu.gd
+res://PauseMenu.gdshader
+res://pause_menu.tscn
