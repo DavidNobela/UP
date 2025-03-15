@@ -1,11 +1,38 @@
 [gd_scene load_steps=7 format=3 uid="uid://it4rkm7gci3b"]
 
-[ext_resource type="Script" path="res://pause_menu.gd" id="1_0eb8k"]
-[ext_resource type="Shader" path="res://PauseMenu.gdshader" id="2_uaekr"]
+[ext_resource type="Script" uid="uid://cbjie0ss2tnr2" path="res://pause_menu.gd" id="1_0eb8k"]
+[ext_resource type="Shader" uid="uid://c05d05dt135rj" path="res://PauseMenu.gdshader" id="2_uaekr"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_7kg2j"]
 shader = ExtResource("2_uaekr")
 shader_parameter/lod = 0.0
+
+[sub_resource type="Animation" id="Animation_tyxso"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:material:shader_parameter/lod")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("PanelContainer:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
 
 [sub_resource type="Animation" id="Animation_kwatx"]
 resource_name = "blur"
@@ -35,37 +62,10 @@ tracks/1/keys = {
 "values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
 }
 
-[sub_resource type="Animation" id="Animation_tyxso"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("ColorRect:material:shader_parameter/lod")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [0.0]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("PanelContainer:modulate")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Color(1, 1, 1, 0)]
-}
-
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_w8sff"]
 _data = {
-"RESET": SubResource("Animation_tyxso"),
-"blur": SubResource("Animation_kwatx")
+&"RESET": SubResource("Animation_tyxso"),
+&"blur": SubResource("Animation_kwatx")
 }
 
 [node name="PauseMenu" type="Control"]
