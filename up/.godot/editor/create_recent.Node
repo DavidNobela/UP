@@ -1,7 +1,8 @@
+Node
+AnimationPlayer
+ColorRect
 CanvasLayer
 CanvasGroup
-ColorRect
-AnimationPlayer
 AnimationTree
 Button
 VBoxContainer
@@ -12,4 +13,3 @@ TextureRect
 TileMapLayer
 MarginContainer
 Node2D
-Sprite2D
