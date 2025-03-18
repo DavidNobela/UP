@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://it4rkm7gci3b"]
 
-[ext_resource type="Script" path="res://pause_menu.gd" id="1_0eb8k"]
-[ext_resource type="Shader" path="res://PauseMenu.gdshader" id="2_uaekr"]
+[ext_resource type="Script" uid="uid://cbjie0ss2tnr2" path="res://pause_menu.gd" id="1_0eb8k"]
+[ext_resource type="Shader" uid="uid://c05d05dt135rj" path="res://PauseMenu.gdshader" id="2_uaekr"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_7kg2j"]
 shader = ExtResource("2_uaekr")
@@ -64,8 +64,8 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_w8sff"]
 _data = {
-"RESET": SubResource("Animation_tyxso"),
-"blur": SubResource("Animation_kwatx")
+&"RESET": SubResource("Animation_tyxso"),
+&"blur": SubResource("Animation_kwatx")
 }
 
 [node name="PauseMenu" type="Control"]
@@ -121,7 +121,7 @@ text = "Quit
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
-"": SubResource("AnimationLibrary_w8sff")
+&"": SubResource("AnimationLibrary_w8sff")
 }
 
 [connection signal="pressed" from="PanelContainer/VBoxContainer/Resume" to="." method="_on_resume_pressed"]
