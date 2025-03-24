@@ -1,9 +1,0 @@
-res://transitioning.gd
-res://loop.gdshader
-res://PauseMenu.gdshader
-res://SceneManager.gd
-res://transitioning.tscn
-res://game.tscn
-res://menu.tscn
-res://pause_menu.tscn
-res://collectable_1.tscn
