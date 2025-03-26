@@ -5,5 +5,3 @@ res://game.tscn
 res://menu.tscn
 res://pause_menu.tscn
 res://transitioning.tscn
-res://pause_menu.gd
-res://SceneManager.gd
