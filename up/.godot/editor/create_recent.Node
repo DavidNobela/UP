@@ -1,11 +1,13 @@
+CollisionShape2D
+Area2D
+CharacterBody2D
+Sprite2D
 Node
 ProgressBar
 AudioStreamPlayer2D
 RayCast2D
-CollisionShape2D
 AnimatedSprite2D
 Timer
-Area2D
 TileMap
 StaticBody2D
 Camera2D
