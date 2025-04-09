@@ -1,3 +1,6 @@
+TextureRect
+PanelContainer
+CenterContainer
 Node
 AnimationPlayer
 ColorRect
@@ -6,10 +9,6 @@ CanvasGroup
 AnimationTree
 Button
 VBoxContainer
-PanelContainer
 Panel
 Label
-TextureRect
 TileMapLayer
-MarginContainer
-Node2D

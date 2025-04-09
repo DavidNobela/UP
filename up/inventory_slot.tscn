@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://bl6us613uuahm"]
+
+[ext_resource type="Script" path="res://inventory_slots.gd" id="1_p54by"]
+
+[node name="InventorySlot" type="PanelContainer"]
+custom_minimum_size = Vector2(20, 20)
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 1
+script = ExtResource("1_p54by")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 2
+expand_mode = 1
+stretch_mode = 5
