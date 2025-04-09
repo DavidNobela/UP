@@ -4,3 +4,5 @@ res://Scene/killzone.tscn
 res://Scene/snake.tscn
 res://health.gd
 res://health.tscn
+res://Scripts/player.gd
+res://Scene/area_2d.gd

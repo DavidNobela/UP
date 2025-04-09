@@ -214,8 +214,8 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rmdeb"]
 size = Vector2(12, 25.5)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_5u181"]
-size = Vector2(14, 30)
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p5opl"]
+bg_color = Color(0, 0.85098, 0, 1)
 
 [node name="Player" type="CharacterBody2D"]
 collision_layer = 2
@@ -232,8 +232,19 @@ autoplay = "idle"
 position = Vector2(0, -13)
 shape = SubResource("RectangleShape2D_rmdeb")
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="UI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(1, -15)
-shape = SubResource("RectangleShape2D_5u181")
+[node name="ProgressBar" type="ProgressBar" parent="UI"]
+layout_mode = 0
+offset_left = -144.0
+offset_top = -78.0
+offset_right = -57.0
+offset_bottom = -64.0
+theme_override_styles/fill = SubResource("StyleBoxFlat_p5opl")
+value = 56.0
+rounded = true
+show_percentage = false
