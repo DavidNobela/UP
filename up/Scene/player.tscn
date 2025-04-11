@@ -1,4 +1,4 @@
-[gd_scene load_steps=34 format=3 uid="uid://dl1dj2eoywwdp"]
+[gd_scene load_steps=35 format=3 uid="uid://dl1dj2eoywwdp"]
 
 [ext_resource type="Script" path="res://Scripts/player.gd" id="1_mnu3n"]
 [ext_resource type="Texture2D" uid="uid://cxuehcs7t3mcu" path="res://CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-fall.png" id="2_2va68"]
@@ -214,6 +214,13 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rmdeb"]
 size = Vector2(12, 25.5)
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ul1xs"]
+bg_color = Color(0.623529, 0.866667, 0.317647, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
 [node name="Player" type="CharacterBody2D"]
 collision_layer = 2
 script = ExtResource("1_mnu3n")
@@ -228,3 +235,19 @@ autoplay = "idle"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -13)
 shape = SubResource("RectangleShape2D_rmdeb")
+
+[node name="UI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="HealthBar" type="ProgressBar" parent="UI"]
+layout_mode = 0
+offset_left = -136.0
+offset_top = -72.0
+offset_right = -82.0
+offset_bottom = -64.0
+theme_override_styles/fill = SubResource("StyleBoxFlat_ul1xs")
+value = 50.0
+show_percentage = false
