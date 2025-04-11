@@ -1,30 +1,19 @@
 extends CharacterBody2D
 
-var health := 10
+
 const SPEED = 130.0
 const JUMP_VELOCITY = -300.0
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
-@onready var health_bar: ProgressBar = $UI/ProgressBar
+@export var health := 3: set = set_health
 
-
-func _ready() -> void:
-	# This call updates the health bar to match the health variable when the
-	# game starts.
-	set_health(health)
-	
 func set_health(new_health: int) -> void:
 	health = new_health
-<<<<<<< Updated upstream
+	if health <= 0:
+		die()
 
 
-func _on_body_entered(area_that_entered: CharacterBody2D) -> void:
-=======
-	health_bar.value = health
-
-
-func _on_body_entered(area_that_entered: Area2D) -> void:
->>>>>>> Stashed changes
-	set_health(health + 10)
+func die() -> void:
+	queue_free()
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
 	if not is_on_floor():
