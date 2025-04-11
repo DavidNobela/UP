@@ -236,18 +236,11 @@ autoplay = "idle"
 position = Vector2(0, -13)
 shape = SubResource("RectangleShape2D_rmdeb")
 
-[node name="UI" type="Control" parent="."]
-layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="HealthBar" type="ProgressBar" parent="UI"]
-layout_mode = 0
+[node name="HealthBar" type="ProgressBar" parent="."]
 offset_left = -136.0
 offset_top = -72.0
 offset_right = -82.0
 offset_bottom = -64.0
 theme_override_styles/fill = SubResource("StyleBoxFlat_ul1xs")
-value = 50.0
+value = 100.0
 show_percentage = false

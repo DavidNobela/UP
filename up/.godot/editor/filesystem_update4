@@ -3,3 +3,4 @@ res://Scene/map.tscn
 res://Scene/killzone.tscn
 res://Scene/snake.tscn
 res://Scripts/player.gd
+res://Scripts/mob.gd

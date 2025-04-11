@@ -4,18 +4,7 @@ extends CharacterBody2D
 const SPEED = 130.0
 const JUMP_VELOCITY = -300.0
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
-@export var health := 3: set = set_health
 
-
-
-func set_health(new_health: int) -> void:
-	health = new_health
-	if health <= 0:
-		die()
-
-
-func die() -> void:
-	queue_free()
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
