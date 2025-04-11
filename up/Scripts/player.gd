@@ -1,6 +1,5 @@
 extends CharacterBody2D
 
-
 const SPEED = 130.0
 const JUMP_VELOCITY = -300.0
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
@@ -11,9 +10,12 @@ func set_health(new_health: int) -> void:
 	if health <= 0:
 		die()
 
-
+func _on_area_entered(area_that_entered: Area2D) -> void:
+	set_health(health + 10)
+	
 func die() -> void:
 	queue_free()
+	
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
 	if not is_on_floor():

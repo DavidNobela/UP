@@ -950,3 +950,9 @@ position = Vector2(980, 146)
 
 [node name="Health" parent="." instance=ExtResource("3_wmjpx")]
 position = Vector2(127, 97)
+
+[node name="Health2" parent="." instance=ExtResource("3_wmjpx")]
+position = Vector2(154, 93)
+
+[node name="Health3" parent="." instance=ExtResource("3_wmjpx")]
+position = Vector2(182, 94)
