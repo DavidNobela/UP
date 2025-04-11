@@ -4,6 +4,8 @@ var health := 10
 const SPEED = 130.0
 const JUMP_VELOCITY = -300.0
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
+@onready var health_bar: ProgressBar = $UI/ProgressBar
+
 
 func _ready() -> void:
 	# This call updates the health bar to match the health variable when the
@@ -12,9 +14,16 @@ func _ready() -> void:
 	
 func set_health(new_health: int) -> void:
 	health = new_health
+<<<<<<< Updated upstream
 
 
 func _on_body_entered(area_that_entered: CharacterBody2D) -> void:
+=======
+	health_bar.value = health
+
+
+func _on_body_entered(area_that_entered: Area2D) -> void:
+>>>>>>> Stashed changes
 	set_health(health + 10)
 func _physics_process(delta: float) -> void:
 	# Add the gravity.

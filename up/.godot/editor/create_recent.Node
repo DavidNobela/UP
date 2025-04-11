@@ -1,6 +1,6 @@
 CollisionShape2D
-CharacterBody2D
 Area2D
+CharacterBody2D
 ProgressBar
 Control
 Sprite2D
