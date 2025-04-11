@@ -1,3 +1,8 @@
+res://inventory_slot.tscn
 res://loop.gdshader
 res://PauseMenu.gdshader
+res://Inventory.gd
+res://test_scene.tscn
+res://character.gd
+res://menu.tscn
 res://inventory_slots.gd

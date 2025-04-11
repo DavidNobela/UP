@@ -1,0 +1,103 @@
+[gd_scene load_steps=4 format=3 uid="uid://b0sn5arktvy5h"]
+
+[ext_resource type="Script" path="res://Inventory.gd" id="1_a5e5r"]
+[ext_resource type="PackedScene" uid="uid://bl6us613uuahm" path="res://inventory_slot.tscn" id="2_fb8lc"]
+[ext_resource type="Script" path="res://character.gd" id="3_urwe4"]
+
+[node name="TestScene" type="Node2D"]
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="Manager" type="Panel" parent="UI"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Inventory" type="GridContainer" parent="UI/Manager"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -464.0
+offset_top = -165.0
+offset_right = -23.0
+offset_bottom = 167.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 5
+script = ExtResource("1_a5e5r")
+
+[node name="InventorySlot" parent="UI/Manager/Inventory" instance=ExtResource("2_fb8lc")]
+layout_mode = 2
+
+[node name="InventorySlot2" parent="UI/Manager/Inventory" instance=ExtResource("2_fb8lc")]
+layout_mode = 2
+
+[node name="InventorySlot3" parent="UI/Manager/Inventory" instance=ExtResource("2_fb8lc")]
+layout_mode = 2
+
+[node name="InventorySlot4" parent="UI/Manager/Inventory" instance=ExtResource("2_fb8lc")]
+layout_mode = 2
+
+[node name="InventorySlot5" parent="UI/Manager/Inventory" instance=ExtResource("2_fb8lc")]
+layout_mode = 2
+
+[node name="InventorySlot6" parent="UI/Manager/Inventory" instance=ExtResource("2_fb8lc")]
+layout_mode = 2
+
+[node name="InventorySlot7" parent="UI/Manager/Inventory" instance=ExtResource("2_fb8lc")]
+layout_mode = 2
+
+[node name="InventorySlot8" parent="UI/Manager/Inventory" instance=ExtResource("2_fb8lc")]
+layout_mode = 2
+
+[node name="InventorySlot9" parent="UI/Manager/Inventory" instance=ExtResource("2_fb8lc")]
+layout_mode = 2
+
+[node name="InventorySlot10" parent="UI/Manager/Inventory" instance=ExtResource("2_fb8lc")]
+layout_mode = 2
+
+[node name="InventorySlot11" parent="UI/Manager/Inventory" instance=ExtResource("2_fb8lc")]
+layout_mode = 2
+
+[node name="InventorySlot12" parent="UI/Manager/Inventory" instance=ExtResource("2_fb8lc")]
+layout_mode = 2
+
+[node name="InventorySlot13" parent="UI/Manager/Inventory" instance=ExtResource("2_fb8lc")]
+layout_mode = 2
+
+[node name="InventorySlot14" parent="UI/Manager/Inventory" instance=ExtResource("2_fb8lc")]
+layout_mode = 2
+
+[node name="InventorySlot15" parent="UI/Manager/Inventory" instance=ExtResource("2_fb8lc")]
+layout_mode = 2
+
+[node name="InventorySlot16" parent="UI/Manager/Inventory" instance=ExtResource("2_fb8lc")]
+layout_mode = 2
+
+[node name="InventorySlot17" parent="UI/Manager/Inventory" instance=ExtResource("2_fb8lc")]
+layout_mode = 2
+
+[node name="InventorySlot18" parent="UI/Manager/Inventory" instance=ExtResource("2_fb8lc")]
+layout_mode = 2
+
+[node name="InventorySlot19" parent="UI/Manager/Inventory" instance=ExtResource("2_fb8lc")]
+layout_mode = 2
+
+[node name="InventorySlot20" parent="UI/Manager/Inventory" instance=ExtResource("2_fb8lc")]
+layout_mode = 2
+
+[node name="Character" type="GridContainer" parent="UI/Manager"]
+layout_mode = 0
+offset_left = 897.0
+offset_top = 283.0
+offset_right = 982.0
+offset_bottom = 363.0
+script = ExtResource("3_urwe4")
+
+[node name="InventorySlot" parent="UI/Manager/Character" instance=ExtResource("2_fb8lc")]
+layout_mode = 2

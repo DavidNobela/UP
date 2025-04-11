@@ -4,7 +4,12 @@ class_name Slot
 #@export var item : Item = null:
 	#set(value):
 		#item = value
-		#
+		
+		#if parent of slot is a charater node then equip item
+		#but make sure play does not have any weapon from the start
+		#if get_parent().name == "Charater":
+			#get_parent().equip(item)
+		
 		#if value != null:
 			#texture_rect.texture = value.icon
 		#else:
