@@ -6,17 +6,15 @@ const JUMP_VELOCITY = -300.0
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
 
 func _ready() -> void:
-	body_entered.connect(_on_body_entered)
 	# This call updates the health bar to match the health variable when the
 	# game starts.
 	set_health(health)
 	
 func set_health(new_health: int) -> void:
 	health = new_health
-	get_node("UI/HealthBar").value = health
 
 
-func _on_area_entered(area_that_entered: Area2D) -> void:
+func _on_body_entered(area_that_entered: CharacterBody2D) -> void:
 	set_health(health + 10)
 func _physics_process(delta: float) -> void:
 	# Add the gravity.

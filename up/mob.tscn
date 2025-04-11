@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://bqt141ipvevm3"]
+
+[ext_resource type="Script" path="res://Health.gd" id="1_abgb0"]
+[ext_resource type="Texture2D" uid="uid://d2le4cv1l52tk" path="res://Textures16x16/7a.png" id="2_qru0w"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jfilo"]
+
+[node name="Health" type="Area2D"]
+script = ExtResource("1_abgb0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_jfilo")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_qru0w")

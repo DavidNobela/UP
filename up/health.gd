@@ -2,7 +2,7 @@ extends Area2D
 
 
 func _ready() -> void:
-	area_entered.connect(_on_area_entered)
+	body_entered.connect(_on_body_entered)
 	play_floating_animation()
 
 
@@ -18,5 +18,5 @@ func play_floating_animation() -> void:
 	tween.set_loops()
 
 
-func _on_area_entered(area_that_entered: Area2D) -> void:
+func _on_body_entered(area_that_entered: CharacterBody2D) -> void:
 	queue_free()
