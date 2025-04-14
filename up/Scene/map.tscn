@@ -1,10 +1,11 @@
-[gd_scene load_steps=10 format=3 uid="uid://c0t7yr1cjb4v8"]
+[gd_scene load_steps=11 format=3 uid="uid://c0t7yr1cjb4v8"]
 
 [ext_resource type="Texture2D" uid="uid://bnkhq6iokanqd" path="res://Jungle Asset Pack/jungle tileset/jungle tileset.png" id="1_b1bxa"]
 [ext_resource type="PackedScene" uid="uid://dl1dj2eoywwdp" path="res://Scene/player.tscn" id="1_n57d0"]
 [ext_resource type="PackedScene" uid="uid://bgq3xdrwbtajj" path="res://Scene/snake.tscn" id="4_3kvoc"]
 [ext_resource type="Texture2D" uid="uid://delrby0v6jbhc" path="res://Pixel Woods Asset Pack/Tileset/Pixel_Woods_Tileset.png" id="4_hoolw"]
 [ext_resource type="PackedScene" uid="uid://dm0fxngimb212" path="res://Scene/killzone.tscn" id="5_h5uqf"]
+[ext_resource type="PackedScene" uid="uid://c1uowl3df4t8q" path="res://mob.tscn" id="6_tnlpo"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_faxhu"]
 texture = ExtResource("1_b1bxa")
@@ -970,3 +971,6 @@ position = Vector2(2767, 191)
 
 [node name="Snake11" parent="Mop" instance=ExtResource("4_3kvoc")]
 position = Vector2(2877, 191)
+
+[node name="Mob" parent="." instance=ExtResource("6_tnlpo")]
+position = Vector2(288, 96)

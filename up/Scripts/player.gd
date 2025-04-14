@@ -1,10 +1,11 @@
-extends CharacterBody2D
+class_name Player extends CharacterBody2D
 
 
 const SPEED = 130.0
 const JUMP_VELOCITY = -300.0
+@export var drag_factor := 10.0
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
-
+@onready var _collision_shape_2d: CollisionShape2D = %CollisionShape2D
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
