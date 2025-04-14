@@ -1,17 +1,29 @@
 extends CharacterBody2D
 
+
+const HEALTH_GAINED = 1
 const SPEED = 130.0
 const JUMP_VELOCITY = -300.0
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
-@export var health := 3: set = set_health
+@onready var health_bar: ProgressBar = $UI/Health
+@export var health : int = 3
+@export var current_health = health
+@export var max_health = 5
 
-func set_health(new_health: int) -> void:
-	health = new_health
-	if health <= 0:
+
+func _ready() -> void:
+	if health_bar:
+		health_bar.max_value = max_health
+		health_bar.value = current_health
+
+func set_health() -> void:
+	current_health += HEALTH_GAINED
+	health_bar.value = health
+	if health == 0:
 		die()
 
 func _on_area_entered(area_that_entered: Area2D) -> void:
-	set_health(health + 10)
+	set_health()
 	
 func die() -> void:
 	queue_free()
