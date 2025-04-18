@@ -1,3 +1,108 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1744953787
-main_menu.tscn::PackedScene::6472738315044221131::1744953487::0::1::::<><>::
+::res://::1745009510
+main_menu.tscn::PackedScene::6472738315044221131::1745009090::0::1::::<><>::
+SuperMario256.ttf::FontFile::5174158714188574320::1745009510::1745009510::1::::<><>::
+::res://brackeys_platformer_assets/::1745009147
+LICENSE & CREDITS.txt::TextFile::-1::1745009147::0::1::::<><>::
+::res://brackeys_platformer_assets/fonts/::1745009148
+PixelOperator8-Bold.ttf::FontFile::5955968964906504048::1745009147::1745009148::1::::<><>::
+PixelOperator8.ttf::FontFile::8596253081856380705::1745009147::1745009148::1::::<><>::
+::res://brackeys_platformer_assets/music/::1745009148
+time_for_adventure.mp3::AudioStreamMP3::3888217908897854866::1745009147::1745009148::1::::<><>::
+::res://brackeys_platformer_assets/sounds/::1745009148
+coin.wav::AudioStreamWAV::828224234010124267::1745009147::1745009148::1::::<><>::
+explosion.wav::AudioStreamWAV::1892840075282637949::1745009147::1745009148::1::::<><>::
+hurt.wav::AudioStreamWAV::4174559471009312844::1745009147::1745009148::1::::<><>::
+jump.wav::AudioStreamWAV::3816647520644269520::1745009147::1745009148::1::::<><>::
+power_up.wav::AudioStreamWAV::3814821120142660617::1745009147::1745009148::1::::<><>::
+tap.wav::AudioStreamWAV::4845685723633813128::1745009147::1745009148::1::::<><>::
+::res://brackeys_platformer_assets/sprites/::1745009148
+coin.png::CompressedTexture2D::2334670361046853578::1745009147::1745009148::1::::<><>::
+fruit.png::CompressedTexture2D::6809238327699416087::1745009147::1745009148::1::::<><>::
+knight.png::CompressedTexture2D::9118649651625113826::1745009147::1745009148::1::::<><>::
+platforms.png::CompressedTexture2D::2835848053327398242::1745009147::1745009148::1::::<><>::
+slime_green.png::CompressedTexture2D::7528776696379949292::1745009147::1745009148::1::::<><>::
+slime_purple.png::CompressedTexture2D::3323422719758080228::1745009147::1745009148::1::::<><>::
+world_tileset.png::CompressedTexture2D::1582147151594298165::1745009147::1745009148::1::::<><>::
+::res://CharacterPack-Version1/::1745009147
+::res://CharacterPack-Version1/Character-No-Weapon/::1745009148
+Character-NoWeapon-dash-1.png::CompressedTexture2D::6849067148255559386::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-Die.png::CompressedTexture2D::7078705252404089625::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-fall.png::CompressedTexture2D::5642572461895327630::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-hurt-no-VFX.png::CompressedTexture2D::6759303482859758061::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-Hurt.png::CompressedTexture2D::1388317750852911640::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-Idle-01.png::CompressedTexture2D::6683136892120315334::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-Idle.png::CompressedTexture2D::8275470571578583772::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-Jump-movement.png::CompressedTexture2D::6310020125887822521::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-Jump.png::CompressedTexture2D::5131957528957807769::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-Rolling-No-Up.png::CompressedTexture2D::6986200995014699404::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-Rolling.png::CompressedTexture2D::4838371906410141788::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-Run.png::CompressedTexture2D::8880192393628213118::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-Sit-Loop.png::CompressedTexture2D::6685022376160321539::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-Sitting.png::CompressedTexture2D::1487788893851517626::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-Slide-no-particles.png::CompressedTexture2D::2711777496084187172::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-Slide-Prepare.png::CompressedTexture2D::8972494318825571518::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-Slide-Recover.png::CompressedTexture2D::5285982470906673636::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-Slide.png::CompressedTexture2D::4510647163769401947::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-Stand Up.png::CompressedTexture2D::6789200443414898375::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-Walk.png::CompressedTexture2D::1518594410292881310::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-wall-jump-off-movement.png::CompressedTexture2D::8162080855726682687::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-wall-jump-off.png::CompressedTexture2D::8459629317837313976::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-wall-slide-loop-no-particles.png::CompressedTexture2D::8090865264765406621::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-wall-slide-loop.png::CompressedTexture2D::6298299378888147769::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-wall-slide-movement.png::CompressedTexture2D::7568147119018419919::1745009147::1745009148::1::::<><>::
+Character-NoWeapon-wall-stick.png::CompressedTexture2D::1708723161855802142::1745009147::1745009148::1::::<><>::
+::res://CharacterPack-Version1/Character-Weapon/::1745009148
+Character-Attack-1.png::CompressedTexture2D::748511948277637509::1745009147::1745009148::1::::<><>::
+Character-Attack-2.png::CompressedTexture2D::1963659379921121384::1745009147::1745009148::1::::<><>::
+Character-Attack-3.png::CompressedTexture2D::6459512109381856315::1745009147::1745009148::1::::<><>::
+Character-Attack-idle1.png::CompressedTexture2D::8237870562461756191::1745009147::1745009148::1::::<><>::
+Character-Attack-idle2.png::CompressedTexture2D::7940543550127832081::1745009147::1745009148::1::::<><>::
+Character-dash-1.png::CompressedTexture2D::6064783593769366466::1745009147::1745009148::1::::<><>::
+Character-die.png::CompressedTexture2D::2746136933464466478::1745009147::1745009148::1::::<><>::
+Character-falling.png::CompressedTexture2D::4085954901055149812::1745009147::1745009148::1::::<><>::
+Character-hurt-no-VFX.png::CompressedTexture2D::7813367618956655642::1745009147::1745009148::1::::<><>::
+Character-hurt.png::CompressedTexture2D::8108436882380996322::1745009147::1745009148::1::::<><>::
+Character-Idle-1.png::CompressedTexture2D::8289201652141224943::1745009147::1745009148::1::::<><>::
+Character-Idle-2.png::CompressedTexture2D::2659310586116738782::1745009147::1745009148::1::::<><>::
+Character-jump-movement.png::CompressedTexture2D::1936194329365398810::1745009147::1745009148::1::::<><>::
+Character-jump.png::CompressedTexture2D::6633241469425912776::1745009147::1745009148::1::::<><>::
+Character-rolling-No-Jump.png::CompressedTexture2D::5983768899455133992::1745009147::1745009148::1::::<><>::
+Character-rolling.png::CompressedTexture2D::3906787139132643244::1745009147::1745009148::1::::<><>::
+Character-run-weapon-no-arm-move.png::CompressedTexture2D::1361291094786742287::1745009147::1745009148::1::::<><>::
+Character-run-weapon.png::CompressedTexture2D::5343948908013658518::1745009147::1745009148::1::::<><>::
+Character-sit-Loop.png::CompressedTexture2D::191472006312532430::1745009147::1745009148::1::::<><>::
+Character-sitting.png::CompressedTexture2D::1601760228560630089::1745009147::1745009148::1::::<><>::
+Character-slide-no-particles.png::CompressedTexture2D::3103696469501981326::1745009147::1745009148::1::::<><>::
+Character-slide-Prepare.png::CompressedTexture2D::1587786843722463847::1745009147::1745009148::1::::<><>::
+Character-slide-Recover.png::CompressedTexture2D::1679211043251873620::1745009147::1745009148::1::::<><>::
+Character-slide.png::CompressedTexture2D::3273075459261470101::1745009147::1745009148::1::::<><>::
+Character-stand-Up.png::CompressedTexture2D::4356184430645728491::1745009147::1745009148::1::::<><>::
+Character-walk.png::CompressedTexture2D::7510322082352190983::1745009147::1745009148::1::::<><>::
+Character-wall-jump-off.png::CompressedTexture2D::3628789061561289383::1745009147::1745009148::1::::<><>::
+Character-wall-slide-loop-no-particles.png::CompressedTexture2D::2981155934462745744::1745009147::1745009148::1::::<><>::
+Character-wall-slide-loop.png::CompressedTexture2D::361507650428648498::1745009147::1745009148::1::::<><>::
+Character-wall-stick-movement.png::CompressedTexture2D::8052701301431240682::1745009147::1745009148::1::::<><>::
+Character-wall-stick-off-movement.png::CompressedTexture2D::3753117180771665062::1745009147::1745009148::1::::<><>::
+Character-wall-Stick.png::CompressedTexture2D::7922485086143691257::1745009147::1745009148::1::::<><>::
+::res://Jungle Asset Pack/::1745009148
+mockup.png::CompressedTexture2D::8162747285407943512::1745009147::1745009148::1::::<><>::
+::res://Jungle Asset Pack/ Chacter with outline/::1745009147
+::res://Jungle Asset Pack/ Chacter with outline/files/::1745009147
+::res://Jungle Asset Pack/ Chacter with outline/sprites/::1745009148
+jump outline.png::CompressedTexture2D::6608757534140434444::1745009147::1745009148::1::::<><>::
+landing outline.png::CompressedTexture2D::5808525872191804338::1745009147::1745009148::1::::<><>::
+::res://Jungle Asset Pack/Character/::1745009147
+::res://Jungle Asset Pack/Character/files/::1745009147
+::res://Jungle Asset Pack/Character/sprites/::1745009148
+jump.png::CompressedTexture2D::7737391951788348172::1745009147::1745009148::1::::<><>::
+landing.png::CompressedTexture2D::9024032166584181673::1745009147::1745009148::1::::<><>::
+::res://Jungle Asset Pack/jungle tileset/::1745009148
+jungle tileset.png::CompressedTexture2D::4966111693184781292::1745009147::1745009148::1::::<><>::
+::res://Jungle Asset Pack/jungle tileset/files/::1745009147
+::res://Jungle Asset Pack/parallax background/::1745009148
+plx-1.png::CompressedTexture2D::1739681966913794355::1745009147::1745009148::1::::<><>::
+plx-2.png::CompressedTexture2D::1012128884112880494::1745009147::1745009148::1::::<><>::
+plx-3.png::CompressedTexture2D::8425709493660024686::1745009147::1745009148::1::::<><>::
+plx-4.png::CompressedTexture2D::8237144781356745480::1745009147::1745009148::1::::<><>::
+plx-5.png::CompressedTexture2D::6477361099528957209::1745009147::1745009148::1::::<><>::
