@@ -1,5 +1,6 @@
-[gd_scene load_steps=16 format=3 uid="uid://bgq3xdrwbtajj"]
+[gd_scene load_steps=17 format=3 uid="uid://bgq3xdrwbtajj"]
 
+[ext_resource type="Script" path="res://Scene/snake.gd" id="1_rm33u"]
 [ext_resource type="Texture2D" uid="uid://jdb0s5b5mxfk" path="res://Jungle Asset Pack/Character/mobs 2.png" id="1_w3355"]
 [ext_resource type="PackedScene" uid="uid://dm0fxngimb212" path="res://Scene/killzone.tscn" id="2_43po1"]
 
@@ -92,6 +93,7 @@ animations = [{
 radius = 14.0357
 
 [node name="Snake" type="Node2D"]
+script = ExtResource("1_rm33u")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(26, 2)
@@ -100,7 +102,16 @@ autoplay = "default"
 frame_progress = 0.167189
 
 [node name="Killzone" parent="." instance=ExtResource("2_43po1")]
+position = Vector2(0, -1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
-position = Vector2(-1, -14)
+position = Vector2(-1, -16)
 shape = SubResource("CircleShape2D_5hpki")
+
+[node name="RayCastRight" type="RayCast2D" parent="."]
+position = Vector2(-1, -17)
+target_position = Vector2(15, 0)
+
+[node name="RayCastLeft" type="RayCast2D" parent="."]
+position = Vector2(-1, -17)
+target_position = Vector2(-14, 0)
