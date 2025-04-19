@@ -1,4 +1,6 @@
 res://main_menu.tscn
-res://main_menu.gd
 res://main.tscn
 res://Scenes/main_character.tscn
+res://Scenes/main_character.gd
+res://main_character.tscn
+res://main_character.gd
