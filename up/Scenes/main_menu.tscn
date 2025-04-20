@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=3 uid="uid://cyhpb337olqvj"]
 
-[ext_resource type="Script" path="res://main_menu.gd" id="1_s58d1"]
-[ext_resource type="FontFile" uid="uid://cfynvxuwdcahc" path="res://SuperMario256.ttf" id="1_ug1fi"]
+[ext_resource type="Script" path="res://Script/main_menu.gd" id="1_cnbct"]
+[ext_resource type="FontFile" uid="uid://cfynvxuwdcahc" path="res://SuperMario256.ttf" id="2_wqivm"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gwgw4"]
 
@@ -41,7 +41,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_s58d1")
+script = ExtResource("1_cnbct")
 
 [node name="Panel" type="Panel" parent="."]
 layout_mode = 1
@@ -111,7 +111,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_constants/shadow_offset_y = 10
-theme_override_fonts/font = ExtResource("1_ug1fi")
+theme_override_fonts/font = ExtResource("2_wqivm")
 theme_override_font_sizes/font_size = 81
 text = "Jungle Survival"
 horizontal_alignment = 1
