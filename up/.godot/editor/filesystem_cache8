@@ -1,10 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1745052276
+::res://::1745111714
 items.png::CompressedTexture2D::8996965170194311219::1745052276::1745052277::1::::<><>::
-main.tscn::PackedScene::7065691892147570313::1745052140::0::1::::<><>::uid://y1ykp3y1bhwd::::res://Jungle Asset Pack/parallax background/plx-1.png<>uid://ooju50718dsw::::res://Jungle Asset Pack/parallax background/plx-2.png<>uid://dsbqg7hy7iua5::::res://Jungle Asset Pack/parallax background/plx-3.png<>uid://dpmetogaforhw::::res://Jungle Asset Pack/parallax background/plx-4.png<>uid://cyjxgq0j70ekn::::res://Jungle Asset Pack/parallax background/plx-5.png<>uid://cc0ves64pj83y::::res://Jungle Asset Pack/jungle tileset/jungle tileset.png<>uid://bd7n5s4i1akwa::::res://Free/Terrain/Terrain (16x16).png<>uid://cb055u5fhfh65::::res://Scenes/main_character.tscn
+main.tscn::PackedScene::7065691892147570313::1745053134::0::1::::<><>::uid://y1ykp3y1bhwd::::res://Jungle Asset Pack/parallax background/plx-1.png<>uid://ooju50718dsw::::res://Jungle Asset Pack/parallax background/plx-2.png<>uid://dsbqg7hy7iua5::::res://Jungle Asset Pack/parallax background/plx-3.png<>uid://dpmetogaforhw::::res://Jungle Asset Pack/parallax background/plx-4.png<>uid://cyjxgq0j70ekn::::res://Jungle Asset Pack/parallax background/plx-5.png<>uid://cc0ves64pj83y::::res://Jungle Asset Pack/jungle tileset/jungle tileset.png<>uid://bd7n5s4i1akwa::::res://Free/Terrain/Terrain (16x16).png<>uid://cb055u5fhfh65::::res://Scenes/main_character.tscn
 main_character.gd::GDScript::-1::1745051700::0::1::::<>CharacterBody2D<>::
 main_menu.gd::GDScript::-1::1745051236::0::1::::<>Control<>::
-main_menu.tscn::PackedScene::6472738315044221131::1745052140::0::1::::<><>::res://main_menu.gd<>uid://cfynvxuwdcahc::::res://SuperMario256.ttf
+main_menu.tscn::PackedScene::6472738315044221131::1745053100::0::1::::<><>::res://main_menu.gd<>uid://cfynvxuwdcahc::::res://SuperMario256.ttf
 SuperMario256.ttf::FontFile::5174158714188574320::1745051236::1745051277::1::::<><>::
 ::res://brackeys_platformer_assets/::1745051231
 LICENSE & CREDITS.txt::TextFile::-1::1745045197::0::1::::<><>::
@@ -322,5 +322,5 @@ plx-2.png::CompressedTexture2D::1012128884112880494::1745045197::1745051278::1::
 plx-3.png::CompressedTexture2D::8425709493660024686::1745045197::1745051278::1::::<><>::
 plx-4.png::CompressedTexture2D::8237144781356745480::1745045197::1745051278::1::::<><>::
 plx-5.png::CompressedTexture2D::6477361099528957209::1745045197::1745051278::1::::<><>::
-::res://Scenes/::1745052141
-main_character.tscn::PackedScene::4896515835523742224::1745052141::0::1::::<><>::uid://dp5x15xnhu8se::::res://CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Idle.png<>res://main_character.gd<>uid://cv5vdywpr0d1b::::res://CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Jump-movement.png<>uid://dyrvqa3np8obm::::res://CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Run.png
+::res://Scenes/::1745053100
+main_character.tscn::PackedScene::4896515835523742224::1745053100::0::1::::<><>::res://main_character.gd<>uid://d1ggx4mxtew6n::::res://items.png
