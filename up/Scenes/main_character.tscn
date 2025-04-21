@@ -113,7 +113,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lmssj"]
-size = Vector2(19, 36)
+size = Vector2(17, 35)
 
 [node name="Player" type="CharacterBody2D"]
 texture_filter = 1
@@ -130,5 +130,5 @@ autoplay = "idle"
 frame_progress = 0.744702
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(6.5, -18)
+position = Vector2(6.5, -18.5)
 shape = SubResource("RectangleShape2D_lmssj")

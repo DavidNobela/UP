@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://c7ww6butpi2th"]
+[gd_scene load_steps=20 format=3 uid="uid://c7ww6butpi2th"]
 
 [ext_resource type="Script" path="res://Script/game_manager.gd" id="1_8d1xe"]
 [ext_resource type="Texture2D" uid="uid://y1ykp3y1bhwd" path="res://Jungle Asset Pack/parallax background/plx-1.png" id="2_1iv8h"]
@@ -15,6 +15,7 @@
 [ext_resource type="Texture2D" uid="uid://cvthsvhkfevx0" path="res://Free/Items/Fruits/Heart_corazón.png" id="13_pdm8b"]
 [ext_resource type="PackedScene" uid="uid://j7mb3fnmm3pv" path="res://Scenes/enemy.tscn" id="13_yjlvk"]
 [ext_resource type="Script" path="res://Script/pause.gd" id="15_yyc6j"]
+[ext_resource type="PackedScene" uid="uid://tloi7meu8pej" path="res://Scenes/enemy_2.tscn" id="16_hm4kj"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_y8ixu"]
 texture = ExtResource("7_dksx5")
@@ -934,6 +935,9 @@ target_level = ExtResource("12_7h6jw")
 
 [node name="Enemy" parent="Scene/Enemies" instance=ExtResource("13_yjlvk")]
 position = Vector2(232, 544)
+
+[node name="Enemy2" parent="Scene/Enemies" instance=ExtResource("16_hm4kj")]
+position = Vector2(73, 555)
 
 [node name="UI" type="CanvasLayer" parent="."]
 

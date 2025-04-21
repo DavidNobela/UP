@@ -1,13 +1,10 @@
 res://Scenes/main_menu.tscn
-res://Scenes/main.tscn
+res://Scenes/Level1.tscn
 res://Scenes/main_character.tscn
 res://Scenes/banana.tscn
-res://Scenes/Level1.tscn
 res://Scenes/Level2.tscn
-res://Script/finish.gd
 res://Scenes/finish.tscn
-res://Script/main_menu.gd
 res://Scenes/enemy.tscn
 res://Script/enemy.gd
-res://Script/main_character.gd
-res://Script/pause.gd
+res://Script/enemy_2.gd
+res://Scenes/enemy_2.tscn
