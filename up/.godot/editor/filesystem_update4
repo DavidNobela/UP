@@ -1,4 +1,5 @@
 res://test_scene.tscn
 res://loop.gdshader
 res://PauseMenu.gdshader
-res://Inventory_Item.gd
+res://Inventory/Inventory_Item.gd
+res://inventory_slot.tscn
