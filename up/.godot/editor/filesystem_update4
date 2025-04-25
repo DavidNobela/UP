@@ -3,3 +3,4 @@ res://loop.gdshader
 res://PauseMenu.gdshader
 res://Inventory/Inventory_Item.gd
 res://Inventory2.gd
+res://inventory_slot.tscn
