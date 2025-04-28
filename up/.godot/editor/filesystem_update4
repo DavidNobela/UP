@@ -4,3 +4,5 @@ res://Scenes/main_character.tscn
 res://Scenes/enemy.tscn
 res://Scenes/enemy_2.tscn
 res://Scenes/finish.tscn
+res://Script/main_character.gd
+res://dialogue.tscn
