@@ -1,0 +1,13 @@
+res://Scenes/Level1.tscn
+res://Inventory/inventory_item.gd
+res://Scenes/banana.tscn
+res://Scenes/main_character.tscn
+res://Scenes/Level2.tscn
+res://inventory.gd
+res://Inventory/inventory.gd
+res://Script/main_character.gd
+res://Inventory/playerInventory.tres
+res://Inventory/inv_ui.gd
+res://Inventory/inv_ui.tscn
+res://Inventory/inv_ui_slots.tscn
+res://Inventory/inv_ui_slots.gd

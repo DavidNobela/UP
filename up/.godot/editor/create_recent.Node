@@ -1,3 +1,10 @@
+Sprite2D
+CanvasLayer
+GridContainer
+Panel
+NinePatchRect
+ColorRect
+Control
 CollisionShape2D
 Area2D
 AnimatedSprite2D
@@ -5,10 +12,3 @@ AnimatableBody2D
 RigidBody2D
 Button
 VBoxContainer
-Label
-Panel
-Node
-HBoxContainer
-TextureRect
-Sprite2D
-CanvasLayer

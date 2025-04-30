@@ -1,7 +1,9 @@
-[gd_scene load_steps=18 format=3 uid="uid://cb055u5fhfh65"]
+[gd_scene load_steps=20 format=3 uid="uid://cb055u5fhfh65"]
 
 [ext_resource type="Script" path="res://Script/main_character.gd" id="1_ufcd3"]
 [ext_resource type="Texture2D" uid="uid://d1ggx4mxtew6n" path="res://items.png" id="2_etg24"]
+[ext_resource type="Resource" uid="uid://b0kx8t2rkbbha" path="res://Inventory/playerInventory.tres" id="2_j6qme"]
+[ext_resource type="PackedScene" uid="uid://bd7js4kkd6y6x" path="res://Inventory/inv_ui.tscn" id="4_eglp3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_32avw"]
 atlas = ExtResource("2_etg24")
@@ -119,6 +121,7 @@ size = Vector2(17, 35)
 texture_filter = 1
 collision_layer = 2
 script = ExtResource("1_ufcd3")
+inv = ExtResource("2_j6qme")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
@@ -132,3 +135,9 @@ frame_progress = 0.744702
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(6.5, -18.5)
 shape = SubResource("RectangleShape2D_lmssj")
+
+[node name="Inv_UI" parent="." instance=ExtResource("4_eglp3")]
+offset_left = -45.0
+offset_top = -70.0
+offset_right = 47.0
+offset_bottom = 1.0
