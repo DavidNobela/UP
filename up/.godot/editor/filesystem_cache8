@@ -1,29 +1,29 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1745877549
-Background.png::CompressedTexture2D::4592402929578603434::1741986321::1741986321::1::::<><>::
-character.gd::GDScript::-1::1745274030::0::1::::<>GridContainer<>::
-coconut png animations-2.png::CompressedTexture2D::6476061152403915999::1745618276::1745618276::1::::<><>::
-collectable_1.gd::GDScript::-1::1741992348::0::1::::<>Area2D<>::
-collectable_1.tscn::PackedScene::3911794513987026820::1744227399::0::1::::<><>::res://collectable_1.gd<>uid://c13xcn8ot2kjr::::res://icon.svg
-game.tscn::PackedScene::3874303886599539382::1744227399::0::1::::<><>::res://game_manager.gd<>uid://c1i75ey0ppb68::::res://menu.tscn<>uid://it4rkm7gci3b::::res://pause_menu.tscn<>res://SceneManager.gd
-game_manager.gd::GDScript::-1::1741809018::0::1::::<>Node<>::
-icon.svg::CompressedTexture2D::6656954675954813299::1740604694::1741809019::1::::<><>::
-Inventory2.gd::GDScript::-1::1745620590::0::1::::Inv<>Resource<>::
-Inventory.gd::GDScript::-1::1745274030::0::1::::<>GridContainer<>::
-inventory_slot.tscn::PackedScene::3223741827921401946::1745620591::0::1::::<><>::res://inventory_slots.gd
-inventory_slots.gd::GDScript::-1::1745274030::0::1::::Slot<>PanelContainer<>::
-loop.gdshader::Shader::-1::1745620599::0::1::::<><>::
-menu.gd::GDScript::-1::1741812594::0::1::::<>Control<>::
-menu.tscn::PackedScene::6616263089918425035::1744411382::0::1::::<><>::res://menu.gd<>res://loop.gdshader<>uid://b6oug8k1xgj6i::::res://Background.png
-PauseMenu.gdshader::Shader::-1::1745620599::0::1::::<><>::
-pause_menu.gd::GDScript::-1::1742852046::0::1::::<>Control<>::
-pause_menu.tscn::PackedScene::602525622951200329::1744227400::0::1::::<><>::res://pause_menu.gd<>res://PauseMenu.gdshader
-SceneManager.gd::GDScript::-1::1742852070::0::1::::<>Node<>::
-test_scene.tscn::PackedScene::4179143495682371387::1745620591::0::1::::<><>::res://Inventory.gd<>uid://bl6us613uuahm::::res://inventory_slot.tscn<>res://character.gd
-transitioning.gd::GDScript::-1::1742250934::0::1::::<>CanvasLayer<>::
-transitioning.tscn::PackedScene::5215006368110937643::1744227400::0::1::::<><>::res://transitioning.gd
-::res://Inventory/::1745619093
-Inventory_Item.gd::GDScript::-1::1745618292::0::1::::InvItem<>Resource<>::
-playerinv.tres::Resource/Inv::2457594397923906183::1745619093::0::1::::<><>::res://Inventory/Inventory_Item.gd<>uid://bmtu0sxh2prkh::::res://Inventory/Items/coconut.tres<>res://Inventory2.gd
-::res://Inventory/Items/::1745618403
-coconut.tres::Resource/InvItem::3269169950685119847::1745618403::0::1::::<><>::res://Inventory/Inventory_Item.gd<>uid://cyjb1s4boinud::::res://coconut png animations-2.png
+::res://::1746041043
+Background.png::CompressedTexture2D::4592402929578603434::1745878985::1746041044::1::::<><>::
+character.gd::GDScript::-1::1745878985::0::1::::<>GridContainer<>::
+coconut png animations-2.png::CompressedTexture2D::6476061152403915999::1745878985::1746041043::1::::<><>::
+collectable_1.gd::GDScript::-1::1745878985::0::1::::<>Area2D<>::
+collectable_1.tscn::PackedScene::3911794513987026820::1745878985::0::1::::<><>::res://collectable_1.gd<>uid://c13xcn8ot2kjr::::res://icon.svg
+game.tscn::PackedScene::3874303886599539382::1745878985::0::1::::<><>::res://game_manager.gd<>uid://c1i75ey0ppb68::::res://menu.tscn<>uid://it4rkm7gci3b::::res://pause_menu.tscn<>res://SceneManager.gd
+game_manager.gd::GDScript::-1::1745878985::0::1::::<>Node<>::
+icon.svg::CompressedTexture2D::6656954675954813299::1745878674::1746041043::1::::<><>::
+Inventory2.gd::GDScript::-1::1745878985::0::1::::Inv<>Resource<>::
+Inventory.gd::GDScript::-1::1745878985::0::1::::<>GridContainer<>::
+inventory_slot.tscn::PackedScene::3223741827921401946::1745878985::0::1::::<><>::res://inventory_slots.gd
+inventory_slots.gd::GDScript::-1::1745878985::0::1::::Slot<>PanelContainer<>::
+loop.gdshader::Shader::-1::1745880075::0::1::::<><>::
+menu.gd::GDScript::-1::1745878985::0::1::::<>Control<>::
+menu.tscn::PackedScene::6616263089918425035::1745878985::0::1::::<><>::res://menu.gd<>res://loop.gdshader<>uid://b6oug8k1xgj6i::::res://Background.png
+PauseMenu.gdshader::Shader::-1::1745880075::0::1::::<><>::
+pause_menu.gd::GDScript::-1::1745878985::0::1::::<>Control<>::
+pause_menu.tscn::PackedScene::602525622951200329::1745878985::0::1::::<><>::res://pause_menu.gd<>res://PauseMenu.gdshader
+SceneManager.gd::GDScript::-1::1745878985::0::1::::<>Node<>::
+test_scene.tscn::PackedScene::4179143495682371387::1745878985::0::1::::<><>::res://Inventory.gd<>uid://bl6us613uuahm::::res://inventory_slot.tscn<>res://character.gd
+transitioning.gd::GDScript::-1::1745878985::0::1::::<>CanvasLayer<>::
+transitioning.tscn::PackedScene::5215006368110937643::1745878985::0::1::::<><>::res://transitioning.gd
+::res://Inventory/::1745878985
+Inventory_Item.gd::GDScript::-1::1745878985::0::1::::InvItem<>Resource<>::
+playerinv.tres::Resource/Inv::2457594397923906183::1745878985::0::1::::<><>::res://Inventory/Inventory_Item.gd<>uid://bmtu0sxh2prkh::::res://Inventory/Items/coconut.tres<>res://Inventory2.gd
+::res://Inventory/Items/::1745878985
+coconut.tres::Resource/InvItem::3269169950685119847::1745878985::0::1::::<><>::res://Inventory/Inventory_Item.gd<>uid://cyjb1s4boinud::::res://coconut png animations-2.png
