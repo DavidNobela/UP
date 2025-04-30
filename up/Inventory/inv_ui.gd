@@ -3,6 +3,9 @@ extends Control
 
 var is_open = false
 
+@onready var inv: Inv = preload("res://Inventory/playerInventory.tres")
+@onready
+
 func _ready():
 	close()
 	
