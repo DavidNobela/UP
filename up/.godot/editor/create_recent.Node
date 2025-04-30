@@ -1,7 +1,8 @@
+Panel
+CenterContainer
 Sprite2D
 CanvasLayer
 GridContainer
-Panel
 NinePatchRect
 ColorRect
 Control
@@ -11,4 +12,3 @@ AnimatedSprite2D
 AnimatableBody2D
 RigidBody2D
 Button
-VBoxContainer
