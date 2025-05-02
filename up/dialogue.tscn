@@ -1,6 +1,18 @@
-[gd_scene load_steps=2 format=3 uid="uid://doq1rlwp4e6ur"]
+[gd_scene load_steps=8 format=3 uid="uid://doq1rlwp4e6ur"]
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_bftd7"]
+[ext_resource type="Shader" path="res://sliding_background.gdshader" id="1_kb2lp"]
+[ext_resource type="Theme" uid="uid://dd8eyp4jx58e1" path="res://main_theme.tres" id="1_x0krw"]
+[ext_resource type="Script" path="res://dialogue.gd" id="2_pfpfj"]
+[ext_resource type="Texture2D" uid="uid://yeoddssi8tdx" path="res://sophia.png" id="3_k5rsm"]
+[ext_resource type="Texture2D" uid="uid://bf1ptaoisxd3c" path="res://emotion_regular.png" id="4_cug8y"]
+[ext_resource type="Texture2D" uid="uid://dsbqg7hy7iua5" path="res://Jungle Asset Pack/parallax background/plx-3.png" id="4_fcds6"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mmi18"]
+shader = ExtResource("1_kb2lp")
+shader_parameter/bg_color = Color(0.437915, 0.588252, 3.85046e-07, 1)
+shader_parameter/pattern_color = null
+shader_parameter/pattern_size = 256.0
+shader_parameter/pattern_sampler = ExtResource("4_fcds6")
 
 [node name="Dialogue" type="Control"]
 layout_mode = 3
@@ -9,12 +21,72 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("1_x0krw")
+script = ExtResource("2_pfpfj")
 
 [node name="ColorRect" type="ColorRect" parent="."]
-material = SubResource("ShaderMaterial_bftd7")
+material = SubResource("ShaderMaterial_mmi18")
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="Body" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.545
+anchor_bottom = 1.0
+offset_left = -158.0
+offset_top = 35.0
+offset_right = 35.16
+texture = ExtResource("3_k5rsm")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TextureRect" type="TextureRect" parent="Body"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_cug8y")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.979
+offset_left = 56.0
+offset_top = 284.0
+offset_bottom = -283.392
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.88, 0.839999)
+text = "
+"
+fit_content = true
+visible_characters = 2
+visible_ratio = 0.23
+
+[node name="NextButton" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -72.0
+offset_top = -38.0
+offset_right = -16.0
+offset_bottom = -7.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "Next"

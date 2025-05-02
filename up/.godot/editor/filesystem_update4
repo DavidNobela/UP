@@ -1,8 +1,12 @@
-res://Scenes/Level2.tscn
+res://dialogue.tscn
 res://Scenes/Level1.tscn
 res://Scenes/main_character.tscn
 res://Scenes/enemy.tscn
 res://Scenes/enemy_2.tscn
 res://Scenes/finish.tscn
-res://Script/main_character.gd
-res://dialogue.tscn
+res://Scenes/Level2.tscn
+res://main_theme.tres
+res://button_orange.tres
+res://button_black.tres
+res://dialogue.gd
+res://sliding_background.gdshader
