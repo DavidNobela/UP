@@ -1,9 +1,7 @@
-res://Inventory/inv_ui.tscn
+res://Scenes/main_character.tscn
 res://Inventory/playerInventory.tres
-res://Inventory/inv_ui.gd
 res://Scenes/Level1.tscn
 res://Scenes/banana.tscn
-res://Scenes/main_character.tscn
 res://Scenes/Level2.tscn
+res://Inventory/inv_ui.tscn
 res://Inventory/inv_ui_slots.tscn
-res://Inventory/inv_ui_slots.gd

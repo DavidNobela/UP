@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1746046413
+::res://::1746216092
 items.png::CompressedTexture2D::8996965170194311219::1746041873::1746041880::1::::<><>::
 SuperMario256.ttf::FontFile::5174158714188574320::1746041873::1746041880::1::::<><>::
 ::res://art/::1746043001
@@ -421,14 +421,14 @@ Idle.png::CompressedTexture2D::884075086220708571::1746041873::1746041880::1::::
 ::res://Free/Traps/Trampoline/::1746041880
 Idle.png::CompressedTexture2D::7415768683320609646::1746041873::1746041880::1::::<><>::
 Jump (28x28).png::CompressedTexture2D::1234586984857073719::1746041873::1746041880::1::::<><>::
-::res://Inventory/::1746045695
+::res://Inventory/::1746047413
 inventory.gd::GDScript::-1::1746043446::0::1::::Inv<>Resource<>::
 inventory_item.gd::GDScript::-1::1746042871::0::1::::InvItem<>Resource<>::
-inv_ui.gd::GDScript::-1::1746045695::0::1::::<>Control<>::
-inv_ui.tscn::PackedScene::2663627439047106173::1746045695::0::1::::<><>::res://Inventory/inv_ui.gd<>uid://rd0bnm87ln1j::::res://art/inventory-background.png<>uid://d207d3rru1p6p::::res://Inventory/inv_ui_slots.tscn
-inv_ui_slots.gd::GDScript::-1::1746045695::0::1::::<>Panel<>::
-inv_ui_slots.tscn::PackedScene::9107920072023561817::1746045575::0::1::::<><>::res://Inventory/inv_ui_slots.gd<>uid://ckby5pjwhlqb2::::res://art/inventory-slot.png
-playerInventory.tres::Resource/Inv::4163242014656176890::1746043577::0::1::::<><>::res://Inventory/inventory_item.gd<>res://Inventory/inventory.gd<>uid://da1toabynpskq::::res://Inventory/Items/Coconut.tres
+inv_ui.gd::GDScript::-1::1746046999::0::1::::<>Control<>::
+inv_ui.tscn::PackedScene::2663627439047106173::1746047413::0::1::::<><>::res://Inventory/inv_ui.gd<>uid://rd0bnm87ln1j::::res://art/inventory-background.png<>uid://d207d3rru1p6p::::res://Inventory/inv_ui_slots.tscn
+inv_ui_slots.gd::GDScript::-1::1746047243::0::1::::<>Panel<>::
+inv_ui_slots.tscn::PackedScene::9107920072023561817::1746047411::0::1::::<><>::res://Inventory/inv_ui_slots.gd<>uid://ckby5pjwhlqb2::::res://art/inventory-slot.png
+playerInventory.tres::Resource/Inv::4163242014656176890::1746046958::0::1::::<><>::res://Inventory/inventory_item.gd<>res://Inventory/inventory.gd<>uid://da1toabynpskq::::res://Inventory/Items/Coconut.tres
 ::res://Inventory/Items/::1746043057
 Coconut.tres::Resource/InvItem::7214114499315326388::1746043038::0::1::::<><>::res://Inventory/inventory_item.gd<>uid://blu4qk2so6uov::::res://art/coconut png animations-2.png
 ::res://Jungle Asset Pack/::1746041880
@@ -452,14 +452,14 @@ plx-2.png::CompressedTexture2D::1012128884112880494::1746041873::1746041880::1::
 plx-3.png::CompressedTexture2D::8425709493660024686::1746041873::1746041880::1::::<><>::
 plx-4.png::CompressedTexture2D::8237144781356745480::1746041873::1746041880::1::::<><>::
 plx-5.png::CompressedTexture2D::6477361099528957209::1746041873::1746041880::1::::<><>::
-::res://Scenes/::1746045347
-banana.tscn::PackedScene::1927875519057393001::1746045347::0::1::::<><>::uid://cbaunq3khg0lj::::res://Free/Items/Fruits/Bananas.png<>res://Script/banana.gd
+::res://Scenes/::1746047415
+banana.tscn::PackedScene::1927875519057393001::1746047414::0::1::::<><>::uid://cbaunq3khg0lj::::res://Free/Items/Fruits/Bananas.png<>res://Script/banana.gd
 enemy.tscn::PackedScene::698491549564333955::1746041873::0::1::::<><>::uid://s5voaa6k7iqe::::res://Enemies/Mushroom/Idle (32x32).png<>res://Script/enemy.gd
 enemy_2.tscn::PackedScene::1357162208161883029::1746041873::0::1::::<><>::uid://p6q4rx5guai1::::res://Enemies/Plant/Idle (44x42).png<>res://Script/enemy_2.gd
 finish.tscn::PackedScene::5181690832415200593::1746041873::0::1::::<><>::res://Script/finish.gd<>uid://dqu1ty0ob31bx::::res://Free/Items/Checkpoints/End/End (Idle).png
-Level1.tscn::PackedScene::7065691892147570313::1746045347::0::1::::<><>::res://Script/game_manager.gd<>uid://y1ykp3y1bhwd::::res://Jungle Asset Pack/parallax background/plx-1.png<>uid://ooju50718dsw::::res://Jungle Asset Pack/parallax background/plx-2.png<>uid://dsbqg7hy7iua5::::res://Jungle Asset Pack/parallax background/plx-3.png<>uid://dpmetogaforhw::::res://Jungle Asset Pack/parallax background/plx-4.png<>uid://cyjxgq0j70ekn::::res://Jungle Asset Pack/parallax background/plx-5.png<>uid://cc0ves64pj83y::::res://Jungle Asset Pack/jungle tileset/jungle tileset.png<>uid://bd7n5s4i1akwa::::res://Free/Terrain/Terrain (16x16).png<>uid://cb055u5fhfh65::::res://Scenes/main_character.tscn<>uid://2p43fk6ua7u8::::res://Scenes/banana.tscn<>uid://cf3bxq0ksl1k4::::res://Scenes/finish.tscn<>uid://bijhtwwq3gwvk::::res://Scenes/Level2.tscn<>uid://cvthsvhkfevx0::::res://Free/Items/Fruits/Heart_corazón.png<>uid://j7mb3fnmm3pv::::res://Scenes/enemy.tscn<>res://Script/pause.gd<>uid://tloi7meu8pej::::res://Scenes/enemy_2.tscn
-Level2.tscn::PackedScene::2966970971881502876::1746045347::0::1::::<><>::res://Script/game_manager.gd<>uid://y1ykp3y1bhwd::::res://Jungle Asset Pack/parallax background/plx-1.png<>uid://ooju50718dsw::::res://Jungle Asset Pack/parallax background/plx-2.png<>uid://dsbqg7hy7iua5::::res://Jungle Asset Pack/parallax background/plx-3.png<>uid://dpmetogaforhw::::res://Jungle Asset Pack/parallax background/plx-4.png<>uid://cyjxgq0j70ekn::::res://Jungle Asset Pack/parallax background/plx-5.png<>uid://cc0ves64pj83y::::res://Jungle Asset Pack/jungle tileset/jungle tileset.png<>uid://bd7n5s4i1akwa::::res://Free/Terrain/Terrain (16x16).png<>uid://cb055u5fhfh65::::res://Scenes/main_character.tscn<>uid://2p43fk6ua7u8::::res://Scenes/banana.tscn<>uid://cf3bxq0ksl1k4::::res://Scenes/finish.tscn<>uid://cyhpb337olqvj::::res://Scenes/main_menu.tscn
-main_character.tscn::PackedScene::4896515835523742224::1746045347::0::1::::<><>::res://Script/main_character.gd<>uid://d1ggx4mxtew6n::::res://items.png<>uid://b0kx8t2rkbbha::::res://Inventory/playerInventory.tres<>uid://bd7js4kkd6y6x::::res://Inventory/inv_ui.tscn
+Level1.tscn::PackedScene::7065691892147570313::1746047415::0::1::::<><>::res://Script/game_manager.gd<>uid://y1ykp3y1bhwd::::res://Jungle Asset Pack/parallax background/plx-1.png<>uid://ooju50718dsw::::res://Jungle Asset Pack/parallax background/plx-2.png<>uid://dsbqg7hy7iua5::::res://Jungle Asset Pack/parallax background/plx-3.png<>uid://dpmetogaforhw::::res://Jungle Asset Pack/parallax background/plx-4.png<>uid://cyjxgq0j70ekn::::res://Jungle Asset Pack/parallax background/plx-5.png<>uid://cc0ves64pj83y::::res://Jungle Asset Pack/jungle tileset/jungle tileset.png<>uid://bd7n5s4i1akwa::::res://Free/Terrain/Terrain (16x16).png<>uid://cb055u5fhfh65::::res://Scenes/main_character.tscn<>uid://2p43fk6ua7u8::::res://Scenes/banana.tscn<>uid://cf3bxq0ksl1k4::::res://Scenes/finish.tscn<>uid://bijhtwwq3gwvk::::res://Scenes/Level2.tscn<>uid://cvthsvhkfevx0::::res://Free/Items/Fruits/Heart_corazón.png<>uid://j7mb3fnmm3pv::::res://Scenes/enemy.tscn<>res://Script/pause.gd<>uid://tloi7meu8pej::::res://Scenes/enemy_2.tscn
+Level2.tscn::PackedScene::2966970971881502876::1746047413::0::1::::<><>::res://Script/game_manager.gd<>uid://y1ykp3y1bhwd::::res://Jungle Asset Pack/parallax background/plx-1.png<>uid://ooju50718dsw::::res://Jungle Asset Pack/parallax background/plx-2.png<>uid://dsbqg7hy7iua5::::res://Jungle Asset Pack/parallax background/plx-3.png<>uid://dpmetogaforhw::::res://Jungle Asset Pack/parallax background/plx-4.png<>uid://cyjxgq0j70ekn::::res://Jungle Asset Pack/parallax background/plx-5.png<>uid://cc0ves64pj83y::::res://Jungle Asset Pack/jungle tileset/jungle tileset.png<>uid://bd7n5s4i1akwa::::res://Free/Terrain/Terrain (16x16).png<>uid://cb055u5fhfh65::::res://Scenes/main_character.tscn<>uid://2p43fk6ua7u8::::res://Scenes/banana.tscn<>uid://cf3bxq0ksl1k4::::res://Scenes/finish.tscn<>uid://cyhpb337olqvj::::res://Scenes/main_menu.tscn
+main_character.tscn::PackedScene::4896515835523742224::1746047414::0::1::::<><>::res://Script/main_character.gd<>uid://d1ggx4mxtew6n::::res://items.png<>uid://b0kx8t2rkbbha::::res://Inventory/playerInventory.tres<>uid://bd7js4kkd6y6x::::res://Inventory/inv_ui.tscn
 main_menu.tscn::PackedScene::6472738315044221131::1746041873::0::1::::<><>::res://Script/main_menu.gd<>uid://cfynvxuwdcahc::::res://SuperMario256.ttf
 ::res://Script/::1746043690
 banana.gd::GDScript::-1::1746041873::0::1::::<>Area2D<>::
