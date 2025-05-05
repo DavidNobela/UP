@@ -1,3 +1,8 @@
+CollisionShape2D
+Sprite2D
+CharacterBody2D
+TileMap
+TextureRect
 Node
 AnimationPlayer
 ColorRect
@@ -8,8 +13,3 @@ Button
 VBoxContainer
 PanelContainer
 Panel
-Label
-TextureRect
-TileMapLayer
-MarginContainer
-Node2D
