@@ -63,16 +63,16 @@ anchors_preset = -1
 anchor_left = 0.5
 anchor_right = 1.0
 anchor_bottom = 0.979
-offset_left = 56.0
+offset_left = 53.0
 offset_top = 284.0
-offset_bottom = -283.392
+offset_bottom = -227.392
 grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(0.88, 0.839999)
 text = "
 "
 fit_content = true
-visible_characters = 2
+visible_characters = 0
 visible_ratio = 0.23
 
 [node name="NextButton" type="Button" parent="."]
