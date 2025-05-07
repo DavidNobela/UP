@@ -1,7 +1,4 @@
-res://transitioning.tscn
 res://loop.gdshader
 res://PauseMenu.gdshader
-res://pause_menu.tscn
-res://menu.tscn
-res://game.tscn
-res://collectable_1.tscn
+res://erosion_shaders.tres
+res://particle/Fire.tscn
