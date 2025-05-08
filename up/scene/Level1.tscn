@@ -1,18 +1,18 @@
 [gd_scene load_steps=15 format=3 uid="uid://b1c2tedkytjs1"]
 
-[ext_resource type="Texture2D" uid="uid://da7ns7ntt2k6l" path="res://Jungle Asset Pack/parallax background/plx-1.png" id="1_a665k"]
-[ext_resource type="Texture2D" uid="uid://thlwwf285udv" path="res://Jungle Asset Pack/parallax background/plx-2.png" id="2_ltpy1"]
-[ext_resource type="Texture2D" uid="uid://184ec5yaw68g" path="res://Jungle Asset Pack/parallax background/plx-3.png" id="3_nbpoh"]
-[ext_resource type="Texture2D" uid="uid://d0t0eilxrs084" path="res://Jungle Asset Pack/parallax background/plx-4.png" id="4_a2grw"]
-[ext_resource type="Texture2D" uid="uid://bp7oi5k05mqhh" path="res://Jungle Asset Pack/parallax background/plx-5.png" id="5_t4pdv"]
-[ext_resource type="Texture2D" uid="uid://kduxbogb88md" path="res://Jungle Asset Pack/jungle tileset/jungle tileset.png" id="6_5y47f"]
-[ext_resource type="Texture2D" uid="uid://ecj6vmjaud44" path="res://Free/Terrain/Terrain (16x16).png" id="7_ejd1g"]
-[ext_resource type="PackedScene" uid="uid://dc2yn0fcqusdg" path="res://scene/player.tscn" id="8_3p3tq"]
-[ext_resource type="PackedScene" uid="uid://w38ddd0apkl1" path="res://scene/killzone.tscn" id="9_nty3x"]
-[ext_resource type="PackedScene" uid="uid://rpl66nomafai" path="res://scene/snake.tscn" id="10_cx5ph"]
+[ext_resource type="Texture2D" uid="uid://da7ns7ntt2k6l" path="res://Jungle Asset Pack/parallax background/plx-1.png" id="1_b161l"]
+[ext_resource type="Texture2D" uid="uid://thlwwf285udv" path="res://Jungle Asset Pack/parallax background/plx-2.png" id="2_taeyl"]
+[ext_resource type="Texture2D" uid="uid://184ec5yaw68g" path="res://Jungle Asset Pack/parallax background/plx-3.png" id="3_cl0v4"]
+[ext_resource type="Texture2D" uid="uid://d0t0eilxrs084" path="res://Jungle Asset Pack/parallax background/plx-4.png" id="4_8v3la"]
+[ext_resource type="Texture2D" uid="uid://bp7oi5k05mqhh" path="res://Jungle Asset Pack/parallax background/plx-5.png" id="5_satbb"]
+[ext_resource type="Texture2D" uid="uid://kduxbogb88md" path="res://Jungle Asset Pack/jungle tileset/jungle tileset.png" id="6_f6dch"]
+[ext_resource type="Texture2D" uid="uid://ecj6vmjaud44" path="res://Free/Terrain/Terrain (16x16).png" id="7_oaka5"]
+[ext_resource type="PackedScene" uid="uid://rpl66nomafai" path="res://scene/snake.tscn" id="8_32yhc"]
+[ext_resource type="PackedScene" uid="uid://dc2yn0fcqusdg" path="res://scene/player.tscn" id="9_m45dl"]
+[ext_resource type="PackedScene" uid="uid://w38ddd0apkl1" path="res://scene/killzone.tscn" id="10_u5a2i"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p1xov"]
-texture = ExtResource("6_5y47f")
+texture = ExtResource("6_f6dch")
 19:1/0 = 0
 19:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 21:1/0 = 0
@@ -691,7 +691,7 @@ texture = ExtResource("6_5y47f")
 38:20/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vu7xw"]
-texture = ExtResource("7_ejd1g")
+texture = ExtResource("7_oaka5")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -876,31 +876,31 @@ sources/1 = SubResource("TileSetAtlasSource_vu7xw")
 texture_filter = 1
 offset_right = 1152.0
 offset_bottom = 640.0
-texture = ExtResource("1_a665k")
+texture = ExtResource("1_b161l")
 
 [node name="TextureRect2" type="TextureRect" parent="."]
 texture_filter = 1
 offset_right = 1152.0
 offset_bottom = 640.0
-texture = ExtResource("2_ltpy1")
+texture = ExtResource("2_taeyl")
 
 [node name="TextureRect3" type="TextureRect" parent="."]
 texture_filter = 1
 offset_right = 1152.0
 offset_bottom = 640.0
-texture = ExtResource("3_nbpoh")
+texture = ExtResource("3_cl0v4")
 
 [node name="TextureRect4" type="TextureRect" parent="."]
 texture_filter = 1
 offset_right = 1152.0
 offset_bottom = 640.0
-texture = ExtResource("4_a2grw")
+texture = ExtResource("4_8v3la")
 
 [node name="TextureRect5" type="TextureRect" parent="."]
 texture_filter = 1
 offset_right = 1152.0
 offset_bottom = 640.0
-texture = ExtResource("5_t4pdv")
+texture = ExtResource("5_satbb")
 
 [node name="TileMap" type="TileMap" parent="."]
 texture_filter = 1
@@ -909,10 +909,10 @@ tile_set = SubResource("TileSet_7qpf8")
 format = 2
 layer_0/tile_data = PackedInt32Array(1310719, 393217, 2, 1245183, 393217, 1, 1179647, 393217, 1, 1114111, 393217, 1, 1048575, 393217, 1, 983039, 393217, 1, 917503, 393217, 1, 851967, 393217, 1, 786431, 393217, 1, 720895, 393217, 1, 655359, 393217, 1, 589823, 393217, 1, 524287, 393217, 1, 458751, 393217, 1, 393215, 393217, 1, 65535, 393217, 1, 131071, 393217, 1, 196607, 393217, 1, 262143, 393217, 1, 327679, 393217, 1, -1, 393217, 1342177282, -65536, 458753, 805306370, -65535, 458753, 805306370, -65534, 458753, 805306370, -65533, 458753, 805306370, -65532, 458753, 805306370, -65531, 458753, 805306370, -65530, 458753, 805306370, -65529, 458753, 805306370, -65528, 458753, 805306370, -65527, 458753, 805306370, -65526, 458753, 805306370, -65525, 458753, 805306370, -65524, 458753, 805306370, -65523, 458753, 805306370, -65522, 458753, 805306370, -65521, 458753, 805306370, -65520, 458753, 805306370, -65519, 458753, 805306370, -65518, 458753, 805306370, -65517, 458753, 805306370, -65516, 458753, 805306370, -65515, 458753, 805306370, -65514, 458753, 805306370, -65513, 458753, 805306370, -65512, 458753, 805306370, -65511, 458753, 805306370, -65510, 458753, 805306370, -65509, 458753, 805306370, -65508, 458753, 805306370, -65507, 458753, 805306370, -65506, 458753, 805306370, -65505, 458753, 805306370, -65504, 458753, 805306370, -65503, 458753, 805306370, -65502, 458753, 805306370, -65501, 458753, 805306370, -65500, 393217, 805306370, 36, 393217, 805306369, 65572, 393217, 805306369, 131108, 393217, 805306369, 196644, 393217, 805306369, 262180, 393217, 805306369, 327716, 393217, 805306369, 393252, 393217, 805306369, 458788, 393217, 805306369, 524324, 393217, 805306369, 589860, 393217, 805306369, 655396, 393217, 805306369, 720932, 393217, 805306369, 786468, 393217, 805306369, 852004, 393217, 805306369, 917540, 393217, 805306369, 983076, 393217, 805306369, 1048612, 393217, 805306369, 1114148, 393217, 805306369, 1179684, 393217, 805306369, 1245220, 524289, 2, 1245210, 589824, 14, 1245211, 655360, 14, 1245212, 196608, 14, 1245213, 262144, 14, 1245214, 327680, 14, 1245215, 393216, 14, 1245216, 458752, 14, 1245217, 524288, 14, 1245218, 589824, 14, 1245219, 655360, 14, 1245202, 65536, 14, 1245203, 131072, 14, 1245204, 196608, 14, 1245205, 262144, 14, 1245206, 327680, 14, 1245207, 393216, 14, 1245208, 458752, 14, 1245209, 524288, 14, 1245194, 655360, 14, 1245195, 262144, 14, 1245196, 327680, 14, 1245197, 393216, 14, 1245198, 458752, 14, 1245199, 524288, 14, 1245200, 589824, 14, 1245201, 655360, 14, 1245185, 131072, 14, 1245186, 196608, 14, 1245187, 262144, 14, 1245188, 327680, 14, 1245189, 393216, 14, 1245190, 458752, 14, 1245184, 65536, 14, 1376255, 65536, 15, 1310720, 131072, 15, 1310721, 196608, 15, 1310722, 262144, 15, 1310723, 327680, 15, 1310724, 393216, 15, 1310725, 458752, 15, 1310726, 524288, 15, 1310730, 131072, 15, 1310731, 196608, 15, 1310732, 262144, 15, 1310733, 327680, 15, 1310734, 393216, 15, 1310735, 458752, 15, 1310736, 524288, 15, 1310737, 589824, 15, 1310738, 655360, 15, 1310739, 65536, 15, 1310740, 131072, 15, 1310741, 196608, 15, 1310742, 262144, 15, 1310743, 327680, 15, 1310744, 393216, 15, 1310745, 458752, 15, 1310746, 524288, 15, 1310747, 65536, 15, 1310748, 131072, 15, 1310749, 196608, 15, 1310750, 262144, 15, 1310751, 327680, 15, 1310752, 393216, 15, 1310753, 458752, 15, 1310754, 524288, 15, 1310755, 589824, 15, 1310756, 655360, 15, 1179665, 851968, 8, 1179664, 524288, 8, 1179669, 524288, 8, 1179670, 851968, 8)
 
-[node name="Snake" parent="." instance=ExtResource("10_cx5ph")]
+[node name="Snake" parent="." instance=ExtResource("8_32yhc")]
 position = Vector2(593, 596)
 
-[node name="Player" parent="." instance=ExtResource("8_3p3tq")]
+[node name="Player" parent="." instance=ExtResource("9_m45dl")]
 position = Vector2(80, 602)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
@@ -921,7 +921,7 @@ scale = Vector2(0.5, 0.5)
 zoom = Vector2(2.4, 2.4)
 limit_bottom = 690
 
-[node name="Killzone" parent="." instance=ExtResource("9_nty3x")]
+[node name="Killzone" parent="." instance=ExtResource("10_u5a2i")]
 position = Vector2(100, 690)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]

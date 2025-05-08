@@ -76,7 +76,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4tk10"]
-size = Vector2(33.75, 26.25)
+size = Vector2(36.25, 26.25)
 
 [node name="Snake" type="Node2D"]
 light_mask = 2
