@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://of4vrwy7f0dr"]
 
-[ext_resource type="Script" path="res://main_menu.gd" id="1_anp4v"]
+[ext_resource type="Script" path="res://script/main_menu.gd" id="1_anp4v"]
 [ext_resource type="Texture2D" uid="uid://da7ns7ntt2k6l" path="res://Jungle Asset Pack/parallax background/plx-1.png" id="1_xp5kl"]
 [ext_resource type="FontFile" uid="uid://gf34upicsbdc" path="res://SuperMario256.ttf" id="2_y8vqh"]
 
