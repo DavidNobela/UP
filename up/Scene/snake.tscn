@@ -1,45 +1,117 @@
-[gd_scene load_steps=7 format=3 uid="uid://b5gmtnd7c0n71"]
+[gd_scene load_steps=17 format=3 uid="uid://bgq3xdrwbtajj"]
 
-[ext_resource type="Texture2D" uid="uid://bpllr6nbyoe70" path="res://32rogues-0.5.0/32rogues/animals.png" id="1_1ysgj"]
-[ext_resource type="Script" path="res://Scripts/snake.gd" id="1_aejec"]
-[ext_resource type="PackedScene" uid="uid://dm0fxngimb212" path="res://Scene/killzone.tscn" id="2_ivlku"]
+[ext_resource type="Script" path="res://Scene/snake.gd" id="1_rm33u"]
+[ext_resource type="Texture2D" uid="uid://jdb0s5b5mxfk" path="res://Jungle Asset Pack/Character/mobs 2.png" id="1_w3355"]
+[ext_resource type="PackedScene" uid="uid://dm0fxngimb212" path="res://Scene/killzone.tscn" id="2_43po1"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_n1a3q"]
-atlas = ExtResource("1_1ysgj")
-region = Rect2(32, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="AtlasTexture_x40ge"]
+atlas = ExtResource("1_w3355")
+region = Rect2(0, 0, 93, 70)
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_vckxr"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_nxr70"]
+atlas = ExtResource("1_w3355")
+region = Rect2(93, 0, 93, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dorpt"]
+atlas = ExtResource("1_w3355")
+region = Rect2(186, 0, 93, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4x4ka"]
+atlas = ExtResource("1_w3355")
+region = Rect2(279, 0, 93, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i3uyf"]
+atlas = ExtResource("1_w3355")
+region = Rect2(372, 0, 93, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0iphl"]
+atlas = ExtResource("1_w3355")
+region = Rect2(465, 0, 93, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ibb4l"]
+atlas = ExtResource("1_w3355")
+region = Rect2(558, 0, 93, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3gajw"]
+atlas = ExtResource("1_w3355")
+region = Rect2(651, 0, 93, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_87q8d"]
+atlas = ExtResource("1_w3355")
+region = Rect2(744, 0, 93, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bf7u6"]
+atlas = ExtResource("1_w3355")
+region = Rect2(837, 0, 93, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bhaof"]
+atlas = ExtResource("1_w3355")
+region = Rect2(930, 0, 93, 70)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_q7c3h"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_n1a3q")
+"texture": SubResource("AtlasTexture_x40ge")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nxr70")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dorpt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4x4ka")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i3uyf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0iphl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ibb4l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3gajw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_87q8d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bf7u6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bhaof")
 }],
 "loop": true,
 "name": &"default",
-"speed": 5.0
+"speed": 10.0
 }]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_42q7u"]
-radius = 8.0
+[sub_resource type="CircleShape2D" id="CircleShape2D_5hpki"]
+radius = 14.0357
 
 [node name="Snake" type="Node2D"]
-script = ExtResource("1_aejec")
+script = ExtResource("1_rm33u")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(0, -16)
-scale = Vector2(-0.994058, 1)
-sprite_frames = SubResource("SpriteFrames_vckxr")
+position = Vector2(26, 2)
+sprite_frames = SubResource("SpriteFrames_q7c3h")
+autoplay = "default"
+frame_progress = 0.167189
 
-[node name="Killzone" parent="." instance=ExtResource("2_ivlku")]
-position = Vector2(0, -9)
+[node name="Killzone" parent="." instance=ExtResource("2_43po1")]
+position = Vector2(0, -1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
-shape = SubResource("CircleShape2D_42q7u")
+position = Vector2(-1, -16)
+shape = SubResource("CircleShape2D_5hpki")
 
 [node name="RayCastRight" type="RayCast2D" parent="."]
-position = Vector2(0, -9)
-target_position = Vector2(12, 0)
+position = Vector2(-1, -17)
+target_position = Vector2(15, 0)
 
 [node name="RayCastLeft" type="RayCast2D" parent="."]
-position = Vector2(0, -9)
-target_position = Vector2(-12, 0)
+position = Vector2(-1, -17)
+target_position = Vector2(-14, 0)
