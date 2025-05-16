@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1744227933
+::res://::1747355890
 default_bus_layout.tres::AudioBusLayout::5000296110182838737::1744227840::0::1::::<><>::
 icon.svg::CompressedTexture2D::6656954675954813299::1740603868::1744227857::1::::<><>::
 ::res://8x8tileset/::1744227857
@@ -273,12 +273,12 @@ bgBamboo_01.png::CompressedTexture2D::3651339595152982821::1744227840::174422785
 bgBamboo_02.png::CompressedTexture2D::4849108890132226151::1744227840::1744227857::1::::<><>::
 bgBamboo_03.png::CompressedTexture2D::8479717581685756826::1744227840::1744227857::1::::<><>::
 Pixel_Woods_Tileset.png::CompressedTexture2D::7463760855773464332::1744227840::1744227857::1::::<><>::
-::res://Scene/::1744227933
-killzone.tscn::PackedScene::8053482969262800323::1744227840::0::1::::<><>::res://Scripts/killzone.gd
-map.tscn::PackedScene::6568772371651230519::1744227840::0::1::::<><>::uid://bnkhq6iokanqd::::res://Jungle Asset Pack/jungle tileset/jungle tileset.png<>uid://dl1dj2eoywwdp::::res://Scene/player.tscn<>uid://b5gmtnd7c0n71::::res://Scene/snake.tscn<>uid://delrby0v6jbhc::::res://Pixel Woods Asset Pack/Tileset/Pixel_Woods_Tileset.png<>uid://dm0fxngimb212::::res://Scene/killzone.tscn
+::res://Scene/::1747355589
+killzone.tscn::PackedScene::8053482969262800323::1747355589::0::1::::<><>::res://Scripts/killzone.gd
+map.tscn::PackedScene::6568772371651230519::1747355589::0::1::::<><>::uid://bnkhq6iokanqd::::res://Jungle Asset Pack/jungle tileset/jungle tileset.png<>uid://dl1dj2eoywwdp::::res://Scene/player.tscn<>uid://b5gmtnd7c0n71::::res://Scene/snake.tscn<>uid://delrby0v6jbhc::::res://Pixel Woods Asset Pack/Tileset/Pixel_Woods_Tileset.png<>uid://dm0fxngimb212::::res://Scene/killzone.tscn
 music.tscn::PackedScene::4674808271587136026::1744227840::0::1::::<><>::uid://dpe08px88wpth::::res://brackeys_platformer_assets/music/time_for_adventure.mp3
-player.tscn::PackedScene::7985212800805386813::1744227840::0::1::::<><>::res://Scripts/player.gd<>uid://cxuehcs7t3mcu::::res://CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-fall.png<>uid://cfuplm1y5nvi2::::res://CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Idle.png<>uid://cdw7a4a62l1s6::::res://CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Jump-movement.png<>uid://bpub3p55n7qpi::::res://CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Run.png
-snake.tscn::PackedScene::4505235482251391926::1744227840::0::1::::<><>::uid://bpllr6nbyoe70::::res://32rogues-0.5.0/32rogues/animals.png<>res://Scripts/snake.gd<>uid://dm0fxngimb212::::res://Scene/killzone.tscn
+player.tscn::PackedScene::7985212800805386813::1747355589::0::1::::<><>::res://Scripts/player.gd<>uid://cxuehcs7t3mcu::::res://CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-fall.png<>uid://cfuplm1y5nvi2::::res://CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Idle.png<>uid://cdw7a4a62l1s6::::res://CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Jump-movement.png<>uid://bpub3p55n7qpi::::res://CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Run.png
+snake.tscn::PackedScene::4505235482251391926::1747355589::0::1::::<><>::uid://bpllr6nbyoe70::::res://32rogues-0.5.0/32rogues/animals.png<>res://Scripts/snake.gd<>uid://dm0fxngimb212::::res://Scene/killzone.tscn
 ::res://Scene/32rogues-0.5.0/::1744227840
 ::res://Scene/32rogues-0.5.0/32rogues/::1744227857
 32rogues-palette.png::CompressedTexture2D::4589016131718095813::1744227840::1744227857::1::::<><>::
