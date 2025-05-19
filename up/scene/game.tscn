@@ -760,6 +760,22 @@ _data = {
 "RESET": SubResource("Animation_c3pq8")
 }
 
+[sub_resource type="Animation" id="Animation_eylso"]
+length = 2.0
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(5472, 586), Vector2(5903, 586)]
+}
+
 [sub_resource type="Animation" id="Animation_fo6g0"]
 resource_name = "move"
 length = 2.0
@@ -777,30 +793,13 @@ tracks/0/keys = {
 "values": [Vector2(5472, 586), Vector2(5904, 586)]
 }
 
-[sub_resource type="Animation" id="Animation_eylso"]
-length = 2.0
-loop_mode = 2
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 2),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector2(5472, 586), Vector2(5903, 586)]
-}
-
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_am5br"]
 _data = {
 "RESET": SubResource("Animation_eylso"),
 "move": SubResource("Animation_fo6g0")
 }
 
-[sub_resource type="Animation" id="Animation_6mh3u"]
-resource_name = "move"
+[sub_resource type="Animation" id="Animation_6brrg"]
 length = 2.0
 loop_mode = 2
 tracks/0/type = "value"
@@ -816,7 +815,8 @@ tracks/0/keys = {
 "values": [Vector2(6096, 586), Vector2(6480, 586)]
 }
 
-[sub_resource type="Animation" id="Animation_6brrg"]
+[sub_resource type="Animation" id="Animation_6mh3u"]
+resource_name = "move"
 length = 2.0
 loop_mode = 2
 tracks/0/type = "value"
@@ -838,8 +838,7 @@ _data = {
 "move": SubResource("Animation_6mh3u")
 }
 
-[sub_resource type="Animation" id="Animation_kwaka"]
-resource_name = "move"
+[sub_resource type="Animation" id="Animation_xrp88"]
 length = 2.0
 loop_mode = 2
 tracks/0/type = "value"
@@ -855,7 +854,8 @@ tracks/0/keys = {
 "values": [Vector2(12624, 106), Vector2(13056, 106)]
 }
 
-[sub_resource type="Animation" id="Animation_xrp88"]
+[sub_resource type="Animation" id="Animation_kwaka"]
+resource_name = "move"
 length = 2.0
 loop_mode = 2
 tracks/0/type = "value"
@@ -877,6 +877,22 @@ _data = {
 "move": SubResource("Animation_kwaka")
 }
 
+[sub_resource type="Animation" id="Animation_37jix"]
+length = 2.0
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(14256, 538), Vector2(14543, 538)]
+}
+
 [sub_resource type="Animation" id="Animation_ooeo7"]
 resource_name = "move"
 length = 2.0
@@ -894,30 +910,13 @@ tracks/0/keys = {
 "values": [Vector2(14256, 538), Vector2(14544, 538)]
 }
 
-[sub_resource type="Animation" id="Animation_37jix"]
-length = 2.0
-loop_mode = 2
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 2),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector2(14256, 538), Vector2(14543, 538)]
-}
-
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_hdish"]
 _data = {
 "RESET": SubResource("Animation_37jix"),
 "move": SubResource("Animation_ooeo7")
 }
 
-[sub_resource type="Animation" id="Animation_exxlb"]
-resource_name = "move"
+[sub_resource type="Animation" id="Animation_5bicf"]
 length = 2.0
 loop_mode = 2
 tracks/0/type = "value"
@@ -933,7 +932,8 @@ tracks/0/keys = {
 "values": [Vector2(8832, 586), Vector2(9024, 586)]
 }
 
-[sub_resource type="Animation" id="Animation_5bicf"]
+[sub_resource type="Animation" id="Animation_exxlb"]
+resource_name = "move"
 length = 2.0
 loop_mode = 2
 tracks/0/type = "value"
@@ -955,8 +955,7 @@ _data = {
 "move": SubResource("Animation_exxlb")
 }
 
-[sub_resource type="Animation" id="Animation_xkvap"]
-resource_name = "move"
+[sub_resource type="Animation" id="Animation_bbt61"]
 length = 2.0
 loop_mode = 2
 tracks/0/type = "value"
@@ -972,7 +971,8 @@ tracks/0/keys = {
 "values": [Vector2(2016, 586), Vector2(2400, 586)]
 }
 
-[sub_resource type="Animation" id="Animation_bbt61"]
+[sub_resource type="Animation" id="Animation_xkvap"]
+resource_name = "move"
 length = 2.0
 loop_mode = 2
 tracks/0/type = "value"

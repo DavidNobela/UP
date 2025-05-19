@@ -1,12 +1,9 @@
+res://scene/player.tscn
 res://scene/main_menu.tscn
 res://scene/game.tscn
-res://scene/player.tscn
 res://scene/platform.tscn
 res://scene/killzone.tscn
 res://scene/finish.tscn
 res://scene/enemy.tscn
 res://scene/spike.tscn
-res://script/killzone.gd
 res://scene/end.tscn
-res://script/end.gd
-res://script/enemy.gd
