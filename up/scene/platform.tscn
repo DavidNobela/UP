@@ -1,19 +1,22 @@
 [gd_scene load_steps=3 format=3 uid="uid://dk7fg6uf7vg01"]
 
-[ext_resource type="Texture2D" uid="uid://dwo8bnug44q2x" path="res://brackeys_platformer_assets/sprites/platforms.png" id="1_sp04v"]
+[ext_resource type="Texture2D" uid="uid://6xan0xj6nwip" path="res://Free/Traps/Platforms/Grey On (32x8).png" id="1_4tsif"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mcw0i"]
-size = Vector2(32, 8)
+size = Vector2(32, 6.33333)
 
 [node name="Platform" type="AnimatableBody2D"]
 scale = Vector2(3, 3)
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
-texture = ExtResource("1_sp04v")
+position = Vector2(0, 0.0833335)
+scale = Vector2(1, 0.981482)
+texture = ExtResource("1_4tsif")
 region_enabled = true
 region_rect = Rect2(16.0128, -0.0105581, 32.0143, 9.04856)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 0.833333)
 shape = SubResource("RectangleShape2D_mcw0i")
 one_way_collision = true

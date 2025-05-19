@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://dklpf4mulyuyd"]
+[gd_scene load_steps=3 format=3 uid="uid://dklpf4mulyuyd"]
 
-[ext_resource type="Script" uid="uid://bipfstq343ow2" path="res://script/killzone.gd" id="1_mw44t"]
+[ext_resource type="Script" path="res://script/killzone.gd" id="1_mw44t"]
+[ext_resource type="AudioStream" uid="uid://bp16s11418lxy" path="res://man-death-scream-186763.mp3" id="2_h7e6i"]
 
 [node name="Killzone" type="Area2D"]
 script = ExtResource("1_mw44t")
@@ -8,6 +9,11 @@ script = ExtResource("1_mw44t")
 [node name="Timer" type="Timer" parent="."]
 wait_time = 0.6
 one_shot = true
+
+[node name="Scream" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_h7e6i")
+volume_db = 12.683
+pitch_scale = 1.19
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

@@ -1,0 +1,125 @@
+[gd_scene load_steps=10 format=3 uid="uid://bjj7sroq3s850"]
+
+[ext_resource type="Script" path="res://script/end.gd" id="1_6a8vw"]
+[ext_resource type="FontFile" uid="uid://degkfu2r7g4fa" path="res://Super Squad.ttf" id="1_pf537"]
+[ext_resource type="Texture2D" uid="uid://bdc36li3hk80h" path="res://截屏2025-05-19 上午12.41.47.png" id="2_2w6cj"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tuivw"]
+texture = ExtResource("2_2w6cj")
+modulate_color = Color(0.344076, 0.344076, 0.344076, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kx6wi"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ktgq4"]
+bg_color = Color(0.796243, 0.796243, 0.796243, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_size = 5
+shadow_offset = Vector2(0, 3.41)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_noy32"]
+bg_color = Color(0.61339, 0.61339, 0.61339, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_size = 5
+shadow_offset = Vector2(0, 3.41)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ywlmk"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_size = 5
+shadow_offset = Vector2(0, 3.41)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kjjes"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_size = 5
+shadow_offset = Vector2(0, 3.41)
+
+[node name="End" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6a8vw")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_tuivw")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 361.0
+offset_top = 327.0
+offset_right = 805.0
+offset_bottom = 533.0
+theme_override_constants/separation = 15
+
+[node name="Menu" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+theme_override_styles/focus = SubResource("StyleBoxEmpty_kx6wi")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ktgq4")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_noy32")
+theme_override_styles/normal = SubResource("StyleBoxFlat_ywlmk")
+text = "Go to Main Menu"
+
+[node name="Exit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+theme_override_styles/focus = SubResource("StyleBoxEmpty_kx6wi")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ktgq4")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_noy32")
+theme_override_styles/normal = SubResource("StyleBoxFlat_kjjes")
+text = "QUIT"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -289.0
+offset_top = -284.0
+offset_right = 292.0
+offset_bottom = -67.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_y = 20
+theme_override_fonts/font = ExtResource("1_pf537")
+theme_override_font_sizes/font_size = 140
+text = "The End"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="VBoxContainer/Menu" to="." method="_on_menu_pressed"]
+[connection signal="pressed" from="VBoxContainer/Exit" to="." method="_on_exit_pressed"]

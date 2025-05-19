@@ -1,14 +1,19 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1747634877
+::res://::1747646962
 2ndmob.png::CompressedTexture2D::145231647522346085::1747621830::1747621831::1::::<><>::
 cartoon-jump-6462.mp3::AudioStreamMP3::8870757319462901025::1747634877::1747634878::1::::<><>::
 Heart_corazón.png::CompressedTexture2D::8400344683734504854::1747621137::1747621177::1::::<><>::
 items (1).png::CompressedTexture2D::4012494822759063218::1747621137::1747621176::1::::<><>::
 items.png::CompressedTexture2D::5676074888190091947::1746501564::1747621176::1::::<><>::
+man-death-scream-186763.mp3::AudioStreamMP3::3494842938060890650::1747646318::1747646320::1::::<><>::
 Mario Jump Sound Effect.mp3::AudioStreamMP3::8341179721829539792::1747634271::1747634272::1::::<><>::
 mobs 2.png::CompressedTexture2D::4723351672833990989::1747621137::1747621176::1::::<><>::
 Nature sounds Meditation forest sounds of birds singing relaxation - 4 minutes.mp3::AudioStreamMP3::2525222761546175736::1747633684::1747633727::1::::<><>::
-SuperMario256.ttf::FontFile::433207888425130076::1746685702::1747621175::1::::<><>::
+scream-85294.mp3::AudioStreamMP3::6616288378165336340::1747645896::1747645897::1::::<><>::
+spring-forest-nature-332842.mp3::AudioStreamMP3::4412259302175634533::1747646962::1747646963::1::::<><>::
+Super Squad.ttf::FontFile::7453020884045137070::1747644198::1747644199::1::::<><>::
+SuperMario256.ttf::FontFile::433207888425130076::1746685702::1747638615::1::::<><>::
+截屏2025-05-19 上午12.41.47.png::CompressedTexture2D::2602871996921095709::1747643197::1747643199::1::::<><>::
 ::res://32rogues/::1747621177
 32rogues-palette.png::CompressedTexture2D::8252764234073479797::1747621137::1747621177::1::::<><>::
 animals.png::CompressedTexture2D::8993377114416505415::1747621137::1747621177::1::::<><>::
@@ -89,9 +94,9 @@ Character-wall-stick-off-movement.png::CompressedTexture2D::6290004737519949721:
 Character-wall-Stick.png::CompressedTexture2D::8235166416676178021::1747621137::1747621177::1::::<><>::
 ::res://brackeys_platformer_assets/::1747621137
 LICENSE & CREDITS.txt::TextFile::-1::1747621137::0::1::::<><>::
-::res://brackeys_platformer_assets/fonts/::1747621175
-PixelOperator8-Bold.ttf::FontFile::8148989649134997253::1746418920::1747621175::1::::<><>::
-PixelOperator8.ttf::FontFile::5625337333148569856::1746418920::1747621175::1::::<><>::
+::res://brackeys_platformer_assets/fonts/::1747638615
+PixelOperator8-Bold.ttf::FontFile::8148989649134997253::1746418920::1747638615::1::::<><>::
+PixelOperator8.ttf::FontFile::5625337333148569856::1746418920::1747638615::1::::<><>::
 ::res://brackeys_platformer_assets/music/::1747633674
 Nature sounds Meditation forest sounds of birds singing relaxation - 4 minutes.mp3::AudioStreamMP3::5213815929491659407::1747633673::1747633674::1::::<><>::
 time_for_adventure.mp3::AudioStreamMP3::7153437092107230046::1746418920::1747621175::1::::<><>::
@@ -461,19 +466,22 @@ plx-2.png::CompressedTexture2D::1348747012297155691::1746418800::1747621176::1::
 plx-3.png::CompressedTexture2D::1894802488920846228::1746418800::1747621176::1::::<><>::
 plx-4.png::CompressedTexture2D::8954731825600149411::1746418800::1747621176::1::::<><>::
 plx-5.png::CompressedTexture2D::3506179342968483861::1746418800::1747621176::1::::<><>::
-::res://scene/::1747630677
-finish.tscn::PackedScene::1936714756551211987::1747630677::0::1::::<><>::res://script/finish.gd<>uid://cpmybac6h3agm::::res://Free/Items/Checkpoints/End/End (Idle).png
-game.tscn::PackedScene::8177290763413266861::1747630677::0::1::::<><>::uid://cjst87h01j0j6::::res://scene/player.tscn<>uid://kduxbogb88md::::res://Jungle Asset Pack/jungle tileset/jungle tileset.png<>uid://da7ns7ntt2k6l::::res://Jungle Asset Pack/parallax background/plx-1.png<>uid://thlwwf285udv::::res://Jungle Asset Pack/parallax background/plx-2.png<>uid://184ec5yaw68g::::res://Jungle Asset Pack/parallax background/plx-3.png<>uid://d0t0eilxrs084::::res://Jungle Asset Pack/parallax background/plx-4.png<>uid://bp7oi5k05mqhh::::res://Jungle Asset Pack/parallax background/plx-5.png<>uid://dk7fg6uf7vg01::::res://scene/platform.tscn<>uid://dklpf4mulyuyd::::res://scene/killzone.tscn<>uid://drxgpj1p7s6qk::::res://Heart_corazón.png<>uid://cb155c2pvkp0x::::res://scene/enemy.tscn<>res://script/pause.gd<>res://script/game_manager.gd
-killzone.tscn::PackedScene::7884779869254488563::1747630677::0::1::::<><>::res://script/killzone.gd
-main_menu.tscn::PackedScene::994764922181070595::1747630677::0::1::::<><>::res://script/main_menu.gd<>uid://da7ns7ntt2k6l::::res://Jungle Asset Pack/parallax background/plx-1.png<>uid://gf34upicsbdc::::res://SuperMario256.ttf
-platform.tscn::PackedScene::7927526534707517388::1747630677::0::1::::<><>::uid://dwo8bnug44q2x::::res://brackeys_platformer_assets/sprites/platforms.png
-player.tscn::PackedScene::5442914006494842749::1747630677::0::1::::<><>::res://script/player.gd<>uid://co5k7wjeycpsn::::res://32rogues/CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Idle.png<>uid://c7xu00jwhnf8u::::res://32rogues/CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Jump-movement.png<>uid://yf1t0m26jxgc::::res://32rogues/CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Run.png
-enemy.tscn::PackedScene::4898579263696354661::1747630677::0::1::::<><>::uid://ccl7djuxbai4::::res://2ndmob.png<>res://script/enemy.gd
-::res://script/::1747630677
+::res://scene/::1747646822
+enemy.tscn::PackedScene::4898579263696354661::1747646822::0::1::::<><>::uid://ccl7djuxbai4::::res://2ndmob.png<>res://script/enemy.gd<>uid://bp16s11418lxy::::res://man-death-scream-186763.mp3
+finish.tscn::PackedScene::1936714756551211987::1747646822::0::1::::<><>::res://script/finish.gd<>uid://cpmybac6h3agm::::res://Free/Items/Checkpoints/End/End (Idle).png
+game.tscn::PackedScene::8177290763413266861::1747646822::0::1::::<><>::uid://cjst87h01j0j6::::res://scene/player.tscn<>uid://kduxbogb88md::::res://Jungle Asset Pack/jungle tileset/jungle tileset.png<>uid://da7ns7ntt2k6l::::res://Jungle Asset Pack/parallax background/plx-1.png<>uid://thlwwf285udv::::res://Jungle Asset Pack/parallax background/plx-2.png<>uid://184ec5yaw68g::::res://Jungle Asset Pack/parallax background/plx-3.png<>uid://d0t0eilxrs084::::res://Jungle Asset Pack/parallax background/plx-4.png<>uid://bp7oi5k05mqhh::::res://Jungle Asset Pack/parallax background/plx-5.png<>uid://dk7fg6uf7vg01::::res://scene/platform.tscn<>uid://dklpf4mulyuyd::::res://scene/killzone.tscn<>uid://degkfu2r7g4fa::::res://Super Squad.ttf<>uid://drxgpj1p7s6qk::::res://Heart_corazón.png<>uid://cb155c2pvkp0x::::res://scene/enemy.tscn<>res://script/pause.gd<>uid://brexqv75drf4g::::res://scene/spike.tscn<>res://script/game_manager.gd<>uid://2ufn55ud5lah::::res://scene/finish.tscn<>uid://bjj7sroq3s850::::res://scene/end.tscn
+killzone.tscn::PackedScene::7884779869254488563::1747646822::0::1::::<><>::res://script/killzone.gd<>uid://bp16s11418lxy::::res://man-death-scream-186763.mp3
+main_menu.tscn::PackedScene::994764922181070595::1747646822::0::1::::<><>::res://script/main_menu.gd<>uid://gf34upicsbdc::::res://SuperMario256.ttf<>uid://bdc36li3hk80h::::res://截屏2025-05-19 上午12.41.47.png
+platform.tscn::PackedScene::7927526534707517388::1747646822::0::1::::<><>::uid://6xan0xj6nwip::::res://Free/Traps/Platforms/Grey On (32x8).png
+player.tscn::PackedScene::5442914006494842749::1747646822::0::1::::<><>::res://script/player.gd<>uid://bxfxg6ijyo0q5::::res://items (1).png<>uid://dynccvbdrnhk0::::res://cartoon-jump-6462.mp3
+end.tscn::PackedScene::3038675679570090601::1747646822::0::1::::<><>::res://script/end.gd<>uid://degkfu2r7g4fa::::res://Super Squad.ttf
+spike.tscn::PackedScene::3589314753883838700::1747646822::0::1::::<><>::uid://jp325g10qv5r::::res://Free/Traps/Spikes/Idle.png<>uid://dklpf4mulyuyd::::res://scene/killzone.tscn
+::res://script/::1747646241
+enemy.gd::GDScript::-1::1747646241::0::1::::<>RigidBody2D<>::
 finish.gd::GDScript::-1::1747621137::0::1::::<>Area2D<>::
-killzone.gd::GDScript::-1::1747621137::0::1::::<>Area2D<>::
-main_menu.gd::GDScript::-1::1747621137::0::1::::<>Control<>::
-player.gd::GDScript::-1::1747626653::0::1::::<>CharacterBody2D<>::
-enemy.gd::GDScript::-1::1747630677::0::1::::<>RigidBody2D<>::
 game_manager.gd::GDScript::-1::1747623988::0::1::::<>Node<>::
+killzone.gd::GDScript::-1::1747646012::0::1::::<>Area2D<>::
+main_menu.gd::GDScript::-1::1747621137::0::1::::<>Control<>::
 pause.gd::GDScript::-1::1747627205::0::1::::<>Node<>::
+player.gd::GDScript::-1::1747635253::0::1::::<>CharacterBody2D<>::
+end.gd::GDScript::-1::1747645533::0::1::::<>Control<>::

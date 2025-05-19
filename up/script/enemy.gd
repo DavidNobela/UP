@@ -1,6 +1,7 @@
 extends RigidBody2D
 
 @onready var game_manager: Node = $"../../GameManager"
+@onready var scream: AudioStreamPlayer2D = $scream
 
 
 
@@ -14,6 +15,7 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 			body.jump()
 		else:
 			print("Decrease player health")
+			scream.play()
 			game_manager.decrease_health()
 			if (x_delta > 0):
 				body.jump_side(450)
