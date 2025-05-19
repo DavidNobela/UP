@@ -1,10 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1747692609
+::res://::1747693162
 2ndmob.png::CompressedTexture2D::145231647522346085::1747692042::1747692071::1::::<><>::
 cartoon-jump-6462.mp3::AudioStreamMP3::8870757319462901025::1747692042::1747692071::1::::<><>::
 Heart_corazón.png::CompressedTexture2D::8400344683734504854::1747691961::1747692072::1::::<><>::
 items (1).png::CompressedTexture2D::4012494822759063218::1747692042::1747692071::1::::<><>::
-items.png::CompressedTexture2D::5676074888190091947::1747692609::1747692609::1::::<><>::
+items.png::CompressedTexture2D::5676074888190091947::1747692624::1747693073::1::::<><>::
 man-death-scream-186763.mp3::AudioStreamMP3::3494842938060890650::1747692042::1747692071::1::::<><>::
 Mario Jump Sound Effect.mp3::AudioStreamMP3::8341179721829539792::1747692042::1747692071::1::::<><>::
 mobs 2.png::CompressedTexture2D::4723351672833990989::1747691961::1747692071::1::::<><>::
@@ -445,6 +445,33 @@ Idle.png::CompressedTexture2D::664415137470795697::1747360115::1747692071::1::::
 ::res://Free/Traps/Trampoline/::1747692071
 Idle.png::CompressedTexture2D::5888224130639222272::1747360115::1747692071::1::::<><>::
 Jump (28x28).png::CompressedTexture2D::2198706663274110851::1747360115::1747692071::1::::<><>::
+::res://Free Pixel Art Forest/::1747693162
+changelog.txt::TextFile::-1::1747693162::0::1::::<><>::
+Contact.txt::TextFile::-1::1747693162::0::1::::<><>::
+license.txt::TextFile::-1::1747693162::0::1::::<><>::
+readme.txt::TextFile::-1::1747693162::0::1::::<><>::
+::res://Free Pixel Art Forest/PNG/::1747693162
+::res://Free Pixel Art Forest/PNG/Background layers/::1747693162
+Layer_0000_9.png::CompressedTexture2D::3308322252165438050::1747693162::1747693162::1::::<><>::
+Layer_0001_8.png::CompressedTexture2D::5574363766477069274::1747693162::1747693162::1::::<><>::
+Layer_0002_7.png::CompressedTexture2D::5261439634022100428::1747693162::1747693162::1::::<><>::
+Layer_0003_6.png::CompressedTexture2D::1353511787439868970::1747693162::1747693162::1::::<><>::
+Layer_0004_Lights.png::CompressedTexture2D::1375781660388112067::1747693162::1747693162::1::::<><>::
+Layer_0005_5.png::CompressedTexture2D::1498533225000637283::1747693162::1747693162::1::::<><>::
+Layer_0006_4.png::CompressedTexture2D::2659316593555621096::1747693162::1747693162::1::::<><>::
+Layer_0007_Lights.png::CompressedTexture2D::1849812317383459622::1747693162::1747693162::1::::<><>::
+Layer_0008_3.png::CompressedTexture2D::604829083849955925::1747693162::1747693162::1::::<><>::
+Layer_0009_2.png::CompressedTexture2D::5688047082116117995::1747693162::1747693162::1::::<><>::
+Layer_0010_1.png::CompressedTexture2D::97551404708236907::1747693162::1747693162::1::::<><>::
+Layer_0011_0.png::CompressedTexture2D::4564618445248045072::1747693162::1747693162::1::::<><>::
+::res://Free Pixel Art Forest/Preview/::1747693162
+Background.png::CompressedTexture2D::7061277858285352278::1747693162::1747693162::1::::<><>::
+::res://Free Pixel Art Forest/PSD/::1747693162
+::res://Free Pixel Art Forest/You may also like/::1747693162
+Pixel Art Forest.png::CompressedTexture2D::1574973386900696111::1747693162::1747693162::1::::<><>::
+Pixel Art Plataformer Painted Style.png::CompressedTexture2D::6531181247784267207::1747693162::1747693162::1::::<><>::
+Pixel Art Runner.png::CompressedTexture2D::2492245579369171893::1747693162::1747693162::1::::<><>::
+Pixel Art Snowy Forest.png::CompressedTexture2D::8564228005598889012::1747693162::1747693162::1::::<><>::
 ::res://Jungle Asset Pack/::1747692071
 mockup.png::CompressedTexture2D::1999660972537807823::1747360115::1747692071::1::::<><>::
 ::res://Jungle Asset Pack/ Chacter with outline/::1747360115
@@ -466,17 +493,17 @@ plx-2.png::CompressedTexture2D::1348747012297155691::1747360115::1747692071::1::
 plx-3.png::CompressedTexture2D::1894802488920846228::1747360115::1747692071::1::::<><>::
 plx-4.png::CompressedTexture2D::8954731825600149411::1747360115::1747692071::1::::<><>::
 plx-5.png::CompressedTexture2D::3506179342968483861::1747360115::1747692071::1::::<><>::
-::res://scene/::1747692042
-end.tscn::PackedScene::3038675679570090601::1747692042::0::1::::<><>::res://script/end.gd<>uid://degkfu2r7g4fa::::res://Super Squad.ttf<>uid://bdc36li3hk80h::::res://截屏2025-05-19 上午12.41.47.png
-enemy.tscn::PackedScene::4898579263696354661::1747692042::0::1::::<><>::uid://ccl7djuxbai4::::res://2ndmob.png<>res://script/enemy.gd<>uid://bp16s11418lxy::::res://man-death-scream-186763.mp3
-finish.tscn::PackedScene::1936714756551211987::1747692042::0::1::::<><>::res://script/finish.gd<>uid://cpmybac6h3agm::::res://Free/Items/Checkpoints/End/End (Idle).png
-game.tscn::PackedScene::8177290763413266861::1747692042::0::1::::<><>::uid://cjst87h01j0j6::::res://scene/player.tscn<>uid://kduxbogb88md::::res://Jungle Asset Pack/jungle tileset/jungle tileset.png<>uid://da7ns7ntt2k6l::::res://Jungle Asset Pack/parallax background/plx-1.png<>uid://thlwwf285udv::::res://Jungle Asset Pack/parallax background/plx-2.png<>uid://184ec5yaw68g::::res://Jungle Asset Pack/parallax background/plx-3.png<>uid://d0t0eilxrs084::::res://Jungle Asset Pack/parallax background/plx-4.png<>uid://bp7oi5k05mqhh::::res://Jungle Asset Pack/parallax background/plx-5.png<>uid://dk7fg6uf7vg01::::res://scene/platform.tscn<>uid://dklpf4mulyuyd::::res://scene/killzone.tscn<>uid://degkfu2r7g4fa::::res://Super Squad.ttf<>uid://drxgpj1p7s6qk::::res://Heart_corazón.png<>uid://cb155c2pvkp0x::::res://scene/enemy.tscn<>res://script/pause.gd<>uid://brexqv75drf4g::::res://scene/spike.tscn<>res://script/game_manager.gd<>uid://2ufn55ud5lah::::res://scene/finish.tscn<>uid://bjj7sroq3s850::::res://scene/end.tscn
-killzone.tscn::PackedScene::7884779869254488563::1747692042::0::1::::<><>::res://script/killzone.gd<>uid://bp16s11418lxy::::res://man-death-scream-186763.mp3
-main_menu.tscn::PackedScene::994764922181070595::1747692042::0::1::::<><>::res://script/main_menu.gd<>uid://gf34upicsbdc::::res://SuperMario256.ttf<>uid://bdc36li3hk80h::::res://截屏2025-05-19 上午12.41.47.png
+::res://scene/::1747693077
+end.tscn::PackedScene::3038675679570090601::1747693077::0::1::::<><>::res://script/end.gd<>uid://degkfu2r7g4fa::::res://Super Squad.ttf<>uid://bdc36li3hk80h::::res://截屏2025-05-19 上午12.41.47.png
+enemy.tscn::PackedScene::4898579263696354661::1747693077::0::1::::<><>::uid://ccl7djuxbai4::::res://2ndmob.png<>res://script/enemy.gd<>uid://bp16s11418lxy::::res://man-death-scream-186763.mp3
+finish.tscn::PackedScene::1936714756551211987::1747693077::0::1::::<><>::res://script/finish.gd<>uid://cpmybac6h3agm::::res://Free/Items/Checkpoints/End/End (Idle).png
+game.tscn::PackedScene::8177290763413266861::1747693077::0::1::::<><>::uid://cjst87h01j0j6::::res://scene/player.tscn<>uid://kduxbogb88md::::res://Jungle Asset Pack/jungle tileset/jungle tileset.png<>uid://da7ns7ntt2k6l::::res://Jungle Asset Pack/parallax background/plx-1.png<>uid://thlwwf285udv::::res://Jungle Asset Pack/parallax background/plx-2.png<>uid://184ec5yaw68g::::res://Jungle Asset Pack/parallax background/plx-3.png<>uid://d0t0eilxrs084::::res://Jungle Asset Pack/parallax background/plx-4.png<>uid://bp7oi5k05mqhh::::res://Jungle Asset Pack/parallax background/plx-5.png<>uid://dk7fg6uf7vg01::::res://scene/platform.tscn<>uid://dklpf4mulyuyd::::res://scene/killzone.tscn<>uid://degkfu2r7g4fa::::res://Super Squad.ttf<>uid://drxgpj1p7s6qk::::res://Heart_corazón.png<>uid://cb155c2pvkp0x::::res://scene/enemy.tscn<>res://script/pause.gd<>uid://brexqv75drf4g::::res://scene/spike.tscn<>res://script/game_manager.gd<>uid://2ufn55ud5lah::::res://scene/finish.tscn<>uid://bjj7sroq3s850::::res://scene/end.tscn
+killzone.tscn::PackedScene::7884779869254488563::1747693077::0::1::::<><>::res://script/killzone.gd<>uid://bp16s11418lxy::::res://man-death-scream-186763.mp3
+main_menu.tscn::PackedScene::994764922181070595::1747693077::0::1::::<><>::res://script/main_menu.gd<>uid://gf34upicsbdc::::res://SuperMario256.ttf<>uid://bdc36li3hk80h::::res://截屏2025-05-19 上午12.41.47.png
 music.tscn::PackedScene::8044323955905799042::1747692042::0::1::::<><>::uid://b34ljbtr25sxp::::res://spring-forest-nature-332842.mp3
-platform.tscn::PackedScene::7927526534707517388::1747692042::0::1::::<><>::uid://6xan0xj6nwip::::res://Free/Traps/Platforms/Grey On (32x8).png
-player.tscn::PackedScene::5442914006494842749::1747692042::0::1::::<><>::res://script/player.gd<>uid://bxfxg6ijyo0q5::::res://items (1).png<>uid://dynccvbdrnhk0::::res://cartoon-jump-6462.mp3
-spike.tscn::PackedScene::3589314753883838700::1747692042::0::1::::<><>::uid://jp325g10qv5r::::res://Free/Traps/Spikes/Idle.png<>uid://dklpf4mulyuyd::::res://scene/killzone.tscn
+platform.tscn::PackedScene::7927526534707517388::1747693077::0::1::::<><>::uid://6xan0xj6nwip::::res://Free/Traps/Platforms/Grey On (32x8).png
+player.tscn::PackedScene::5442914006494842749::1747693077::0::1::::<><>::res://script/player.gd<>uid://cm4sehqs2c3nb::::res://items.png<>uid://dynccvbdrnhk0::::res://cartoon-jump-6462.mp3
+spike.tscn::PackedScene::3589314753883838700::1747693077::0::1::::<><>::uid://jp325g10qv5r::::res://Free/Traps/Spikes/Idle.png<>uid://dklpf4mulyuyd::::res://scene/killzone.tscn
 ::res://script/::1747692043
 end.gd::GDScript::-1::1747692043::0::1::::<>Control<>::
 enemy.gd::GDScript::-1::1747692043::0::1::::<>RigidBody2D<>::
