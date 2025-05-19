@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://dore1wqqjiqmf"]
+[gd_scene load_steps=22 format=3 uid="uid://dore1wqqjiqmf"]
 
 [ext_resource type="PackedScene" uid="uid://cjst87h01j0j6" path="res://scene/player.tscn" id="1_px4ky"]
 [ext_resource type="Texture2D" uid="uid://kduxbogb88md" path="res://Jungle Asset Pack/jungle tileset/jungle tileset.png" id="2_63xto"]
@@ -9,10 +9,9 @@
 [ext_resource type="Texture2D" uid="uid://bp7oi5k05mqhh" path="res://Jungle Asset Pack/parallax background/plx-5.png" id="7_e62xk"]
 [ext_resource type="PackedScene" uid="uid://dk7fg6uf7vg01" path="res://scene/platform.tscn" id="8_56j50"]
 [ext_resource type="PackedScene" uid="uid://dklpf4mulyuyd" path="res://scene/killzone.tscn" id="9_eso0h"]
-[ext_resource type="PackedScene" uid="uid://2ufn55ud5lah" path="res://scene/finish.tscn" id="10_setjf"]
-[ext_resource type="PackedScene" uid="uid://of4vrwy7f0dr" path="res://scene/main_menu.tscn" id="11_sxk3e"]
 [ext_resource type="Texture2D" uid="uid://drxgpj1p7s6qk" path="res://Heart_corazón.png" id="12_spxfh"]
 [ext_resource type="PackedScene" uid="uid://cb155c2pvkp0x" path="res://scene/enemy.tscn" id="13_63hoo"]
+[ext_resource type="Script" path="res://script/pause.gd" id="13_dsgyq"]
 [ext_resource type="Script" path="res://script/game_manager.gd" id="14_x56cl"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_r436c"]
@@ -698,24 +697,30 @@ texture = ExtResource("2_63xto")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_r436c")
 
-[sub_resource type="Animation" id="Animation_ceapp"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(289, 590)]
-}
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_xomc1"]
+distance = -737.0
 
-[sub_resource type="Animation" id="Animation_u6crq"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fvhof"]
+bg_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_size = 5
+shadow_offset = Vector2(0, 3.41)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fkvdy"]
+bg_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_size = 5
+shadow_offset = Vector2(0, 3.41)
+
+[sub_resource type="Animation" id="Animation_ifgsc"]
 resource_name = "move"
-length = 1.5
+length = 2.0
 loop_mode = 2
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -724,25 +729,38 @@ tracks/0/path = NodePath(".:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 1.5),
+"times": PackedFloat32Array(0, 2),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Vector2(289, 590), Vector2(479, 590)]
+"values": [Vector2(865, 302), Vector2(1200, 302)]
 }
 
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_jp5xm"]
+[sub_resource type="Animation" id="Animation_vh3uf"]
+length = 2.0
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(2016, 595), Vector2(2400, 596)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_sytur"]
 _data = {
-"RESET": SubResource("Animation_ceapp"),
-"move": SubResource("Animation_u6crq")
+"RESET": SubResource("Animation_vh3uf"),
+"move": SubResource("Animation_ifgsc")
 }
-
-[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_xomc1"]
-distance = -701.0
 
 [node name="Game" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource("1_px4ky")]
-position = Vector2(65, 558)
+position = Vector2(61, 576)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(1, -17.6667)
@@ -755,7 +773,7 @@ editor_draw_screen = false
 scale = Vector2(3, 3)
 tile_set = SubResource("TileSet_5csem")
 format = 2
-layer_0/tile_data = PackedInt32Array(786432, 589824, 8, 786433, 589824, 8, 786434, 589824, 8, 786435, 589824, 8, 786436, 589824, 8, 786443, 589824, 8, 786444, 589824, 8, 786445, 589824, 8, 786446, 589824, 8, 786447, 589824, 8, 786448, 589824, 8, 786449, 589824, 8, 786450, 589824, 8, 786451, 589824, 8, 786452, 589824, 8, 786453, 589824, 8, 786454, 589824, 8, 786455, 589824, 8, 851968, 1507328, 14, 851969, 1507328, 14, 851970, 1507328, 14, 851971, 1507328, 14, 851972, 1507328, 14, 851979, 1507328, 14, 851980, 1507328, 14, 851981, 1507328, 14, 851982, 1507328, 14, 851983, 1507328, 14, 851984, 1507328, 14, 851985, 1507328, 14, 851986, 1507328, 14, 851987, 1507328, 14, 851988, 1507328, 14, 851989, 1507328, 14, 851990, 1507328, 14, 851991, 1507328, 14, 851967, 1114112, 14, 786431, 1114112, 14, 720895, 1114112, 14, 655359, 1114112, 14, 589823, 1114112, 14, 524287, 1114112, 14, 458751, 1114112, 14, 393215, 1114112, 14, 327679, 1114112, 14, 262143, 1114112, 14, 196607, 1114112, 14, 131071, 1114112, 14, 65535, 1114112, 14, -1, 1114112, 14)
+layer_0/tile_data = PackedInt32Array(786432, 589824, 8, 786433, 589824, 8, 786434, 589824, 8, 786435, 589824, 8, 786436, 589824, 8, 851967, 1114112, 14, 786431, 1114112, 14, 720895, 1114112, 14, 655359, 1114112, 14, 589823, 1114112, 14, 524287, 1114112, 14, 458751, 1114112, 14, 393215, 1114112, 14, 327679, 1114112, 14, 262143, 1114112, 14, 196607, 1114112, 14, 131071, 1114112, 14, 65535, 1114112, 14, -1, 1114112, 14, 786437, 589824, 8, 786438, 589824, 8, 786439, 589824, 8, 786440, 589824, 8, 786441, 589824, 8, 786442, 655360, 8, 720906, 655360, 7, 655370, 655360, 6, 655371, 589824, 8, 655372, 589824, 8, 655373, 655360, 8, 589838, 655360, 8, 524303, 655360, 8, 458767, 655360, 7, 393231, 655360, 6, 589837, 655360, 6, 524302, 655360, 6, 589852, 720896, 8, 589853, 589824, 268435464, 589854, 786432, 8, 720928, 720896, 8, 720929, 786432, 8, 720930, 786432, 8, 720931, 786432, 8, 720932, 786432, 8, 720933, 786432, 8, 786471, 720896, 8, 393243, 720896, 6, 458779, 720896, 7, 524315, 720896, 8, 524316, 720896, 6, 589855, 786432, 8, 589856, 720896, 6, 655392, 720896, 7, 720934, 786432, 8, 720935, 720896, 6, 393242, 655360, 6, 393232, 720896, 6, 786472, 720896, 6, 589878, 655360, 6, 589879, 786432, 8, 524346, 655360, 6, 786483, 655360, 6, 720948, 655360, 6, 786484, 655360, 8, 655413, 655360, 6, 720949, 655360, 8, 655414, 655360, 8, 589880, 786432, 8, 589881, 786432, 8, 589882, 655360, 8, 524347, 589824, 8, 524348, 589824, 8, 458813, 655360, 6, 524349, 655360, 8, 851968, 393216, 3, 851969, 393216, 3, 851970, 393216, 3, 851971, 393216, 3, 851972, 393216, 3, 851973, 393216, 3, 851974, 393216, 3, 851975, 393216, 3, 851976, 393216, 3, 851977, 393216, 3, 851978, 393216, 3, 720907, 327680, 3, 786443, 327680, 4, 720908, 393216, 3, 720909, 393216, 3, 655374, 327680, 3, 589839, 327680, 3, 524304, 327680, 4, 458768, 327680, 3, 917504, 1507328, 14, 917505, 1507328, 14, 917506, 1507328, 14, 917507, 1507328, 14, 917508, 1507328, 14, 917509, 1507328, 14, 917510, 1507328, 14, 917511, 1507328, 14, 917512, 1507328, 14, 917513, 1507328, 14, 917514, 1507328, 14, 917515, 1507328, 14, 851979, 1507328, 14, 786444, 1507328, 14, 851980, 1507328, 14, 917516, 1507328, 14, 786445, 1507328, 14, 851981, 1507328, 14, 917517, 1507328, 14, 720910, 1507328, 14, 655375, 1507328, 14, 589840, 1507328, 14, 655376, 1507328, 14, 720912, 1507328, 14, 720911, 1507328, 14, 786447, 1507328, 14, 786446, 1507328, 14, 851982, 1507328, 14, 917518, 1507328, 14, 851983, 1507328, 14, 786448, 1507328, 14, 851984, 1507328, 14, 917520, 1507328, 14, 917519, 1507328, 14, 458778, 458752, 3, 524314, 458752, 4, 589851, 458752, 3, 655388, 393216, 3, 655389, 393216, 3, 655390, 393216, 3, 655391, 458752, 3, 720927, 458752, 4, 786464, 393216, 3, 786465, 393216, 3, 786466, 393216, 3, 786467, 393216, 3, 786468, 393216, 3, 786469, 393216, 3, 786470, 458752, 3, 852007, 393216, 3, 852008, 393216, 3, 589850, 1507328, 14, 655386, 1507328, 14, 655387, 1507328, 14, 720924, 1507328, 14, 720925, 1507328, 14, 720926, 1507328, 14, 720923, 1507328, 14, 720922, 1507328, 14, 786459, 1507328, 14, 786460, 1507328, 14, 786461, 1507328, 14, 786462, 1507328, 14, 786463, 1507328, 14, 786458, 1507328, 14, 851996, 1507328, 14, 851997, 1507328, 14, 851998, 1507328, 14, 851999, 1507328, 14, 852000, 1507328, 14, 852001, 1507328, 14, 852002, 1507328, 14, 852003, 1507328, 14, 852004, 1507328, 14, 852005, 1507328, 14, 852006, 1507328, 14, 851995, 1507328, 14, 851994, 1507328, 14, 917544, 1507328, 14, 917543, 1507328, 14, 917542, 1507328, 14, 917541, 1507328, 14, 917540, 1507328, 14, 917539, 1507328, 14, 917538, 1507328, 14, 917537, 1507328, 14, 917536, 1507328, 14, 917535, 1507328, 14, 917534, 1507328, 14, 917533, 1507328, 14, 917532, 1507328, 14, 917531, 1507328, 14, 917530, 1507328, 14)
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 scroll_limit_end = Vector2(0, 648)
@@ -789,23 +807,10 @@ scale = Vector2(3, 3)
 texture = ExtResource("7_e62xk")
 centered = false
 
-[node name="Platform" parent="." instance=ExtResource("8_56j50")]
-position = Vector2(289, 590)
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Platform"]
-libraries = {
-"": SubResource("AnimationLibrary_jp5xm")
-}
-autoplay = "move"
-
 [node name="Killzone" parent="." instance=ExtResource("9_eso0h")]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
 shape = SubResource("WorldBoundaryShape2D_xomc1")
-
-[node name="Finish" parent="." instance=ExtResource("10_setjf")]
-position = Vector2(623, 543)
-targer_level = ExtResource("11_sxk3e")
 
 [node name="UI" type="CanvasLayer" parent="."]
 
@@ -840,9 +845,108 @@ layout_mode = 2
 texture = ExtResource("12_spxfh")
 expand_mode = 2
 
-[node name="Enemy" parent="." instance=ExtResource("13_63hoo")]
-position = Vector2(183, 556)
+[node name="Pause" type="Node" parent="UI"]
+script = ExtResource("13_dsgyq")
+
+[node name="PausePanel" type="Panel" parent="UI/Pause"]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1.0
+offset_right = -1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="UI/Pause/PausePanel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -349.0
+offset_top = -205.0
+offset_right = 350.0
+offset_bottom = -68.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 100
+text = "GAME PAUSED"
+horizontal_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="UI/Pause/PausePanel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -184.0
+offset_top = 8.0
+offset_right = 184.0
+offset_bottom = 175.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+
+[node name="Resume" type="Button" parent="UI/Pause/PausePanel/VBoxContainer"]
+process_mode = 3
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_fvhof")
+text = "Resume"
+
+[node name="Menu" type="Button" parent="UI/Pause/PausePanel/VBoxContainer"]
+process_mode = 3
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_fkvdy")
+text = "Go to Main Menu"
+
+[node name="Menu2" type="Button" parent="UI/Pause/PausePanel/VBoxContainer"]
+process_mode = 3
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_fkvdy")
+text = "Exit"
 
 [node name="GameManager" type="Node" parent="." node_paths=PackedStringArray("hearts")]
 script = ExtResource("14_x56cl")
 hearts = [NodePath("../UI/Hearts/HBoxContainer/Heart"), NodePath("../UI/Hearts/HBoxContainer/Heart2"), NodePath("../UI/Hearts/HBoxContainer/Heart3")]
+
+[node name="Platform" type="Node" parent="."]
+
+[node name="Platform" parent="Platform" instance=ExtResource("8_56j50")]
+position = Vector2(2016, 595)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Platform/Platform"]
+libraries = {
+"": SubResource("AnimationLibrary_sytur")
+}
+autoplay = "move"
+
+[node name="Platform2" parent="Platform" instance=ExtResource("8_56j50")]
+position = Vector2(2016, 595)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Platform/Platform2"]
+libraries = {
+"": SubResource("AnimationLibrary_sytur")
+}
+autoplay = "RESET"
+
+[node name="Enemy" type="Node" parent="."]
+
+[node name="Enemy" parent="Enemy" instance=ExtResource("13_63hoo")]
+position = Vector2(579, 462)
+
+[node name="Enemy2" parent="Enemy" instance=ExtResource("13_63hoo")]
+position = Vector2(1454, 414)
+
+[connection signal="pressed" from="UI/Pause/PausePanel/VBoxContainer/Resume" to="UI/Pause" method="_on_resume_pressed"]
+[connection signal="pressed" from="UI/Pause/PausePanel/VBoxContainer/Menu" to="UI/Pause" method="_on_menu_pressed"]
+[connection signal="pressed" from="UI/Pause/PausePanel/VBoxContainer/Menu2" to="UI/Pause" method="_on_menu_2_pressed"]

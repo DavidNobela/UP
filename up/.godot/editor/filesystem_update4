@@ -8,3 +8,4 @@ res://scene/enemy.tscn
 res://script/enemy.gd
 res://script/player.gd
 res://script/game_manager.gd
+res://script/pause.gd
