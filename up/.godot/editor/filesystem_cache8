@@ -1,10 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1747621830
+::res://::1747634877
 2ndmob.png::CompressedTexture2D::145231647522346085::1747621830::1747621831::1::::<><>::
+cartoon-jump-6462.mp3::AudioStreamMP3::8870757319462901025::1747634877::1747634878::1::::<><>::
 Heart_corazón.png::CompressedTexture2D::8400344683734504854::1747621137::1747621177::1::::<><>::
 items (1).png::CompressedTexture2D::4012494822759063218::1747621137::1747621176::1::::<><>::
 items.png::CompressedTexture2D::5676074888190091947::1746501564::1747621176::1::::<><>::
+Mario Jump Sound Effect.mp3::AudioStreamMP3::8341179721829539792::1747634271::1747634272::1::::<><>::
 mobs 2.png::CompressedTexture2D::4723351672833990989::1747621137::1747621176::1::::<><>::
+Nature sounds Meditation forest sounds of birds singing relaxation - 4 minutes.mp3::AudioStreamMP3::2525222761546175736::1747633684::1747633727::1::::<><>::
 SuperMario256.ttf::FontFile::433207888425130076::1746685702::1747621175::1::::<><>::
 ::res://32rogues/::1747621177
 32rogues-palette.png::CompressedTexture2D::8252764234073479797::1747621137::1747621177::1::::<><>::
@@ -89,7 +92,8 @@ LICENSE & CREDITS.txt::TextFile::-1::1747621137::0::1::::<><>::
 ::res://brackeys_platformer_assets/fonts/::1747621175
 PixelOperator8-Bold.ttf::FontFile::8148989649134997253::1746418920::1747621175::1::::<><>::
 PixelOperator8.ttf::FontFile::5625337333148569856::1746418920::1747621175::1::::<><>::
-::res://brackeys_platformer_assets/music/::1747621175
+::res://brackeys_platformer_assets/music/::1747633674
+Nature sounds Meditation forest sounds of birds singing relaxation - 4 minutes.mp3::AudioStreamMP3::5213815929491659407::1747633673::1747633674::1::::<><>::
 time_for_adventure.mp3::AudioStreamMP3::7153437092107230046::1746418920::1747621175::1::::<><>::
 ::res://brackeys_platformer_assets/sounds/::1747621180
 coin.wav::AudioStreamWAV::7501636569550263666::1746418920::1747621180::1::::<><>::
@@ -457,15 +461,19 @@ plx-2.png::CompressedTexture2D::1348747012297155691::1746418800::1747621176::1::
 plx-3.png::CompressedTexture2D::1894802488920846228::1746418800::1747621176::1::::<><>::
 plx-4.png::CompressedTexture2D::8954731825600149411::1746418800::1747621176::1::::<><>::
 plx-5.png::CompressedTexture2D::3506179342968483861::1746418800::1747621176::1::::<><>::
-::res://scene/::1747621553
-finish.tscn::PackedScene::1936714756551211987::1747621553::0::1::::<><>::res://script/finish.gd<>uid://cpmybac6h3agm::::res://Free/Items/Checkpoints/End/End (Idle).png
-game.tscn::PackedScene::8177290763413266861::1747621553::0::1::::<><>::uid://cjst87h01j0j6::::res://scene/player.tscn<>uid://kduxbogb88md::::res://Jungle Asset Pack/jungle tileset/jungle tileset.png<>uid://da7ns7ntt2k6l::::res://Jungle Asset Pack/parallax background/plx-1.png<>uid://thlwwf285udv::::res://Jungle Asset Pack/parallax background/plx-2.png<>uid://184ec5yaw68g::::res://Jungle Asset Pack/parallax background/plx-3.png<>uid://d0t0eilxrs084::::res://Jungle Asset Pack/parallax background/plx-4.png<>uid://bp7oi5k05mqhh::::res://Jungle Asset Pack/parallax background/plx-5.png<>uid://dk7fg6uf7vg01::::res://scene/platform.tscn<>uid://dklpf4mulyuyd::::res://scene/killzone.tscn<>uid://2ufn55ud5lah::::res://scene/finish.tscn<>uid://of4vrwy7f0dr::::res://scene/main_menu.tscn<>uid://drxgpj1p7s6qk::::res://Heart_corazón.png
-killzone.tscn::PackedScene::7884779869254488563::1747621553::0::1::::<><>::res://script/killzone.gd
-main_menu.tscn::PackedScene::994764922181070595::1747621553::0::1::::<><>::res://script/main_menu.gd<>uid://da7ns7ntt2k6l::::res://Jungle Asset Pack/parallax background/plx-1.png<>uid://gf34upicsbdc::::res://SuperMario256.ttf
-platform.tscn::PackedScene::7927526534707517388::1747621553::0::1::::<><>::uid://dwo8bnug44q2x::::res://brackeys_platformer_assets/sprites/platforms.png
-player.tscn::PackedScene::5442914006494842749::1747621553::0::1::::<><>::res://script/player.gd<>uid://co5k7wjeycpsn::::res://32rogues/CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Idle.png<>uid://c7xu00jwhnf8u::::res://32rogues/CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Jump-movement.png<>uid://yf1t0m26jxgc::::res://32rogues/CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Run.png
-::res://script/::1747621137
+::res://scene/::1747630677
+finish.tscn::PackedScene::1936714756551211987::1747630677::0::1::::<><>::res://script/finish.gd<>uid://cpmybac6h3agm::::res://Free/Items/Checkpoints/End/End (Idle).png
+game.tscn::PackedScene::8177290763413266861::1747630677::0::1::::<><>::uid://cjst87h01j0j6::::res://scene/player.tscn<>uid://kduxbogb88md::::res://Jungle Asset Pack/jungle tileset/jungle tileset.png<>uid://da7ns7ntt2k6l::::res://Jungle Asset Pack/parallax background/plx-1.png<>uid://thlwwf285udv::::res://Jungle Asset Pack/parallax background/plx-2.png<>uid://184ec5yaw68g::::res://Jungle Asset Pack/parallax background/plx-3.png<>uid://d0t0eilxrs084::::res://Jungle Asset Pack/parallax background/plx-4.png<>uid://bp7oi5k05mqhh::::res://Jungle Asset Pack/parallax background/plx-5.png<>uid://dk7fg6uf7vg01::::res://scene/platform.tscn<>uid://dklpf4mulyuyd::::res://scene/killzone.tscn<>uid://drxgpj1p7s6qk::::res://Heart_corazón.png<>uid://cb155c2pvkp0x::::res://scene/enemy.tscn<>res://script/pause.gd<>res://script/game_manager.gd
+killzone.tscn::PackedScene::7884779869254488563::1747630677::0::1::::<><>::res://script/killzone.gd
+main_menu.tscn::PackedScene::994764922181070595::1747630677::0::1::::<><>::res://script/main_menu.gd<>uid://da7ns7ntt2k6l::::res://Jungle Asset Pack/parallax background/plx-1.png<>uid://gf34upicsbdc::::res://SuperMario256.ttf
+platform.tscn::PackedScene::7927526534707517388::1747630677::0::1::::<><>::uid://dwo8bnug44q2x::::res://brackeys_platformer_assets/sprites/platforms.png
+player.tscn::PackedScene::5442914006494842749::1747630677::0::1::::<><>::res://script/player.gd<>uid://co5k7wjeycpsn::::res://32rogues/CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Idle.png<>uid://c7xu00jwhnf8u::::res://32rogues/CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Jump-movement.png<>uid://yf1t0m26jxgc::::res://32rogues/CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Run.png
+enemy.tscn::PackedScene::4898579263696354661::1747630677::0::1::::<><>::uid://ccl7djuxbai4::::res://2ndmob.png<>res://script/enemy.gd
+::res://script/::1747630677
 finish.gd::GDScript::-1::1747621137::0::1::::<>Area2D<>::
 killzone.gd::GDScript::-1::1747621137::0::1::::<>Area2D<>::
 main_menu.gd::GDScript::-1::1747621137::0::1::::<>Control<>::
-player.gd::GDScript::-1::1747621137::0::1::::<>CharacterBody2D<>::
+player.gd::GDScript::-1::1747626653::0::1::::<>CharacterBody2D<>::
+enemy.gd::GDScript::-1::1747630677::0::1::::<>RigidBody2D<>::
+game_manager.gd::GDScript::-1::1747623988::0::1::::<>Node<>::
+pause.gd::GDScript::-1::1747627205::0::1::::<>Node<>::
