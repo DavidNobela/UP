@@ -1,11 +1,1 @@
 res://scene/game.tscn
-res://scene/main_menu.tscn
-res://scene/player.tscn
-res://scene/platform.tscn
-res://scene/killzone.tscn
-res://scene/finish.tscn
-res://scene/enemy.tscn
-res://script/enemy.gd
-res://script/player.gd
-res://script/game_manager.gd
-res://script/pause.gd

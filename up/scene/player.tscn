@@ -1,6 +1,6 @@
 [gd_scene load_steps=30 format=3 uid="uid://cjst87h01j0j6"]
 
-[ext_resource type="Script" path="res://script/player.gd" id="1_st6cj"]
+[ext_resource type="Script" uid="uid://dy7kdy4ewyf3i" path="res://script/player.gd" id="1_st6cj"]
 [ext_resource type="Texture2D" uid="uid://co5k7wjeycpsn" path="res://32rogues/CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Idle.png" id="2_ruts0"]
 [ext_resource type="Texture2D" uid="uid://c7xu00jwhnf8u" path="res://32rogues/CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Jump-movement.png" id="3_2fpc4"]
 [ext_resource type="Texture2D" uid="uid://yf1t0m26jxgc" path="res://32rogues/CharacterPack-Version1/Character-No-Weapon/Character-NoWeapon-Run.png" id="4_lb1il"]

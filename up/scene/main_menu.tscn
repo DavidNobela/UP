@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://of4vrwy7f0dr"]
 
-[ext_resource type="Script" path="res://script/main_menu.gd" id="1_anp4v"]
+[ext_resource type="Script" uid="uid://barvcl4w2bqem" path="res://script/main_menu.gd" id="1_anp4v"]
 [ext_resource type="Texture2D" uid="uid://da7ns7ntt2k6l" path="res://Jungle Asset Pack/parallax background/plx-1.png" id="1_xp5kl"]
 [ext_resource type="FontFile" uid="uid://gf34upicsbdc" path="res://SuperMario256.ttf" id="2_y8vqh"]
 
@@ -77,9 +77,9 @@ theme_override_constants/separation = 15
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
-theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 30
 theme_override_styles/focus = SubResource("StyleBoxEmpty_o81tw")
 theme_override_styles/hover = SubResource("StyleBoxFlat_afvb3")
@@ -91,9 +91,9 @@ text = "Start Game"
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
-theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 30
 theme_override_styles/focus = SubResource("StyleBoxEmpty_o81tw")
 theme_override_styles/hover = SubResource("StyleBoxFlat_afvb3")

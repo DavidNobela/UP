@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://2ufn55ud5lah"]
 
-[ext_resource type="Script" path="res://script/finish.gd" id="1_0nga6"]
+[ext_resource type="Script" uid="uid://b4joq1o7dvoig" path="res://script/finish.gd" id="1_0nga6"]
 [ext_resource type="Texture2D" uid="uid://cpmybac6h3agm" path="res://Free/Items/Checkpoints/End/End (Idle).png" id="1_qq4ub"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0l5u2"]
