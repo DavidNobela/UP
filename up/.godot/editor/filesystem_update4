@@ -1,8 +1,8 @@
-res://scene/main_menu.tscn
-res://scene/Level1.tscn
-res://scene/player.tscn
-res://scene/killzone.tscn
-res://scene/snake.tscn
-res://main_menu.gd
 res://scene/game.tscn
+res://scene/main_menu.tscn
+res://scene/player.tscn
+res://scene/platform.tscn
+res://script/killzone.gd
+res://scene/killzone.tscn
+res://script/main_menu.gd
 res://script/player.gd
