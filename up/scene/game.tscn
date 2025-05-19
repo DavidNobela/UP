@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://dore1wqqjiqmf"]
+[gd_scene load_steps=18 format=3 uid="uid://dore1wqqjiqmf"]
 
 [ext_resource type="PackedScene" uid="uid://cjst87h01j0j6" path="res://scene/player.tscn" id="1_px4ky"]
 [ext_resource type="Texture2D" uid="uid://kduxbogb88md" path="res://Jungle Asset Pack/jungle tileset/jungle tileset.png" id="2_63xto"]
@@ -9,6 +9,8 @@
 [ext_resource type="Texture2D" uid="uid://bp7oi5k05mqhh" path="res://Jungle Asset Pack/parallax background/plx-5.png" id="7_e62xk"]
 [ext_resource type="PackedScene" uid="uid://dk7fg6uf7vg01" path="res://scene/platform.tscn" id="8_56j50"]
 [ext_resource type="PackedScene" uid="uid://dklpf4mulyuyd" path="res://scene/killzone.tscn" id="9_eso0h"]
+[ext_resource type="PackedScene" uid="uid://2ufn55ud5lah" path="res://scene/finish.tscn" id="10_setjf"]
+[ext_resource type="PackedScene" uid="uid://of4vrwy7f0dr" path="res://scene/main_menu.tscn" id="11_sxk3e"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_r436c"]
 texture = ExtResource("2_63xto")
@@ -797,3 +799,7 @@ autoplay = "move"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
 shape = SubResource("WorldBoundaryShape2D_xomc1")
+
+[node name="Finish" parent="." instance=ExtResource("10_setjf")]
+position = Vector2(215, 543)
+targer_level = ExtResource("11_sxk3e")

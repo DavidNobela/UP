@@ -6,3 +6,5 @@ res://script/killzone.gd
 res://scene/killzone.tscn
 res://script/main_menu.gd
 res://script/player.gd
+res://script/finish.gd
+res://scene/finish.tscn
