@@ -2,7 +2,6 @@ res://dialogue.tscn
 res://sliding_background.gdshader
 res://button_black.tres
 res://main_theme.tres
-res://dialogue.gd
 res://Scenes/Level1.tscn
 res://Scenes/main_character.tscn
 res://Scenes/enemy.tscn
