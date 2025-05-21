@@ -1,6 +1,8 @@
-[gd_scene load_steps=13 format=3 uid="uid://doq1rlwp4e6ur"]
+[gd_scene load_steps=15 format=3 uid="uid://doq1rlwp4e6ur"]
 
+[ext_resource type="Texture2D" uid="uid://bua6oqrwi4p4n" path="res://sophia.png" id="2_o0myk"]
 [ext_resource type="Script" path="res://dialogue.gd" id="2_pfpfj"]
+[ext_resource type="Texture2D" uid="uid://dbyakvlw0y8w" path="res://emotion_regular.png" id="3_8t38f"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_urdw4"]
 content_margin_left = 22.0
@@ -112,10 +114,8 @@ shader_parameter/pattern_size = 256.0
 shader_parameter/pattern_sampler = SubResource("CompressedTexture2D_2a3qv")
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_kseeg"]
-load_path = "res://.godot/imported/sophia.png-fd59aec65d378d63afdb7220b404d761.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ctfee"]
-load_path = "res://.godot/imported/emotion_regular.png-3d3767a7a8b085b8ae1954a0200e2098.ctex"
 
 [node name="Dialogue" type="Control"]
 layout_mode = 3
@@ -193,3 +193,11 @@ offset_bottom = -7.0
 grow_horizontal = 0
 grow_vertical = 0
 text = "Next"
+
+[node name="Sophia" type="Sprite2D" parent="."]
+position = Vector2(261, 334)
+texture = ExtResource("2_o0myk")
+
+[node name="EmotionRegular" type="Sprite2D" parent="."]
+position = Vector2(260, 343)
+texture = ExtResource("3_8t38f")
