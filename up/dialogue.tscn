@@ -1,18 +1,121 @@
-[gd_scene load_steps=8 format=3 uid="uid://doq1rlwp4e6ur"]
+[gd_scene load_steps=13 format=3 uid="uid://doq1rlwp4e6ur"]
 
-[ext_resource type="Shader" path="res://sliding_background.gdshader" id="1_kb2lp"]
-[ext_resource type="Theme" uid="uid://dd8eyp4jx58e1" path="res://main_theme.tres" id="1_x0krw"]
 [ext_resource type="Script" path="res://dialogue.gd" id="2_pfpfj"]
-[ext_resource type="Texture2D" uid="uid://yeoddssi8tdx" path="res://sophia.png" id="3_k5rsm"]
-[ext_resource type="Texture2D" uid="uid://bf1ptaoisxd3c" path="res://emotion_regular.png" id="4_cug8y"]
-[ext_resource type="Texture2D" uid="uid://dsbqg7hy7iua5" path="res://Jungle Asset Pack/parallax background/plx-3.png" id="4_fcds6"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_urdw4"]
+content_margin_left = 22.0
+content_margin_top = 15.0
+content_margin_right = 22.0
+content_margin_bottom = 18.0
+bg_color = Color(0, 0, 0, 0.956863)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.8, 0.8, 0.8, 0)
+corner_radius_top_left = 48
+corner_radius_top_right = 48
+corner_radius_bottom_right = 48
+corner_radius_bottom_left = 48
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_twqyy"]
+content_margin_left = 22.0
+content_margin_top = 15.0
+content_margin_right = 22.0
+content_margin_bottom = 18.0
+bg_color = Color(0, 0, 0, 0.956863)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.345098, 0.176471, 0.533333, 0)
+corner_radius_top_left = 48
+corner_radius_top_right = 48
+corner_radius_bottom_right = 48
+corner_radius_bottom_left = 48
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qj3xq"]
+content_margin_left = 22.0
+content_margin_top = 15.0
+content_margin_right = 22.0
+content_margin_bottom = 18.0
+bg_color = Color(0.901961, 0.615686, 0, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.8, 0.8, 0.8, 0)
+corner_radius_top_left = 48
+corner_radius_top_right = 48
+corner_radius_bottom_right = 48
+corner_radius_bottom_left = 48
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t5wal"]
+content_margin_left = 22.0
+content_margin_top = 15.0
+content_margin_right = 22.0
+content_margin_bottom = 18.0
+bg_color = Color(0.901961, 0.615686, 0, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.344521, 0.176424, 0.534521, 1)
+corner_radius_top_left = 48
+corner_radius_top_right = 48
+corner_radius_bottom_right = 48
+corner_radius_bottom_left = 48
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qpmvl"]
+content_margin_left = 48.0
+content_margin_top = 32.0
+content_margin_right = 48.0
+content_margin_bottom = 32.0
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 32
+corner_radius_top_right = 32
+corner_radius_bottom_right = 32
+corner_radius_bottom_left = 32
+
+[sub_resource type="Theme" id="Theme_fn7ii"]
+default_font_size = 48
+Button/styles/disabled = SubResource("StyleBoxFlat_urdw4")
+Button/styles/focus = SubResource("StyleBoxFlat_twqyy")
+Button/styles/hover = SubResource("StyleBoxFlat_qj3xq")
+Button/styles/normal = SubResource("StyleBoxFlat_urdw4")
+Button/styles/pressed = SubResource("StyleBoxFlat_t5wal")
+RichTextLabel/colors/default_color = Color(0, 0, 0, 1)
+RichTextLabel/styles/normal = SubResource("StyleBoxFlat_qpmvl")
+
+[sub_resource type="Shader" id="Shader_ljdhh"]
+code = "shader_type canvas_item;
+
+uniform sampler2D pattern_sampler : repeat_enable, filter_linear_mipmap;
+uniform vec3 bg_color : source_color;
+uniform vec3 pattern_color : source_color;
+uniform float pattern_size = 256.0;
+
+void fragment() {
+	vec2 uv = FRAGCOORD.xy / pattern_size;
+	COLOR.rgb = mix(pattern_color, bg_color, texture(pattern_sampler, uv + TIME * 0.05).x);
+}
+"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2a3qv"]
+load_path = "res://.godot/imported/plx-3.png-4c0b0967e7d54820adffc62d21fdbed4.ctex"
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_mmi18"]
-shader = ExtResource("1_kb2lp")
+shader = SubResource("Shader_ljdhh")
 shader_parameter/bg_color = Color(0.437915, 0.588252, 3.85046e-07, 1)
 shader_parameter/pattern_color = null
 shader_parameter/pattern_size = 256.0
-shader_parameter/pattern_sampler = ExtResource("4_fcds6")
+shader_parameter/pattern_sampler = SubResource("CompressedTexture2D_2a3qv")
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_kseeg"]
+load_path = "res://.godot/imported/sophia.png-fd59aec65d378d63afdb7220b404d761.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ctfee"]
+load_path = "res://.godot/imported/emotion_regular.png-3d3767a7a8b085b8ae1954a0200e2098.ctex"
 
 [node name="Dialogue" type="Control"]
 layout_mode = 3
@@ -21,7 +124,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme = ExtResource("1_x0krw")
+theme = SubResource("Theme_fn7ii")
 script = ExtResource("2_pfpfj")
 
 [node name="ColorRect" type="ColorRect" parent="."]
@@ -41,7 +144,7 @@ anchor_bottom = 1.0
 offset_left = -158.0
 offset_top = 35.0
 offset_right = 35.16
-texture = ExtResource("3_k5rsm")
+texture = SubResource("CompressedTexture2D_kseeg")
 expand_mode = 1
 stretch_mode = 5
 
@@ -52,7 +155,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("4_cug8y")
+texture = SubResource("CompressedTexture2D_ctfee")
 expand_mode = 1
 stretch_mode = 5
 
